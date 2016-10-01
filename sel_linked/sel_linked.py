@@ -10,8 +10,10 @@ from selenium.webdriver.common.proxy import *
 
 USER = sys.argv[1]
 PASS = sys.argv[2]
+FILE = "img_urls_test.json"
 
-profile = FirefoxProfile("C:/Users/cai/AppData/Roaming/Mozilla/Firefox/Profiles/g20kvwve.sel_profile")
+profile = FirefoxProfile("/Users/caiprozect/Library/Application Support/Firefox/Profiles/mrjqbcaq.sel_profile")
+#profile = FirefoxProfile("C:/Users/cai/AppData/Roaming/Mozilla/Firefox/Profiles/g20kvwve.sel_profile")
 profile.set_preference("general.useragent.override", "Mozilla/5.0(compatible; Googlebot/2.1; +http://www.google.com/bot.html)")
 
 driver = webdriver.Firefox(firefox_profile = profile)
@@ -51,7 +53,7 @@ try:
 		for li in results_list:
 			if "people" in li.get_attribute("class"):
 				img = li.find_element_by_xpath("./a/img")
-				with open("img_urls_test.json", 'a') as outfile:
+				with open(FILE, 'a') as outfile:
 					outfile.write(img.get_attribute("src") + '\n')
 		def check_existence(string):
 			try:
@@ -67,14 +69,3 @@ try:
 	
 finally:
 	print "\n\ngot the image\n\n"
-	
-'''
-body = driver.find_element_by_tag_name("body")
-body.send_keys(Keys.CONTROL + 't')
-driver.get("http://www.google.com/imghp")
-
-img_search = driver.find_element_by_name("q")
-
-img_search.send_keys(img_url)
-img_search.send_keys(Keys.ENTER)
-'''
