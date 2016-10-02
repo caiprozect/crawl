@@ -10,8 +10,10 @@ from selenium.webdriver.common.proxy import *
 
 USER = sys.argv[1]
 PASS = sys.argv[2]
-INFILE = 'linked_urls_test_wiht_never_sleep.json'
-OUTFILE = 'linked_edu_test_1.json'
+QUERY = "Microsoft"
+#INFILE = 'linked_urls_test_wiht_never_sleep.json'
+INFILE = 'test_dir.json'
+OUTFILE = 'linked_edu_test_2.json'
 COUNT = 0
 
 driver = webdriver.Chrome()
@@ -28,7 +30,19 @@ with open(INFILE, 'r') as urls:
 	for url in urls:
 		print COUNT
 		if 'dir' in url:
-			print "This url needs a bit more handling..."
+			driver.get(url)
+			try:
+				linked_text_lst = driver.find_elements_by_tag_name("a")
+				for linked_text in linked_text_lst:
+					content = linked_text.find_element_by_xpath("./..").text
+					content_text = content.encode('utf-8')
+					if QUERY in content_text:
+						print content_text
+					else:
+						continue
+			except:
+				continue
+
 		else:
 			driver.get(url)
 			if "Sign In" in driver.page_source:
