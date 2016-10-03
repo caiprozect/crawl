@@ -9,8 +9,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC 
 from selenium.webdriver.common.proxy import *
 
-USER = sys.argv[1]
-PASS = sys.argv[2]
+#USER = sys.argv[1]
+#PASS = sys.argv[2]
 QUERY = "Microsoft"
 INFILE = 'linked_urls_test_wiht_never_sleep.json'
 #INFILE = 'test_dir.json'
@@ -38,6 +38,7 @@ pass_field.send_keys(Keys.ENTER)
 
 with open(INFILE, 'r') as urls:
 	for url in urls:
+		time.sleep(10) #check minimal time delay
 		if 'dir' in url:
 			driver.get(url)
 			try:
@@ -79,16 +80,16 @@ with open(INFILE, 'r') as urls:
 				pass_field.send_keys(PASS)
 				pass_field.send_keys(Keys.ENTER)
 			try:
-				print "trying to find background-education div..."
+				print "trying to find education div..."
 				schools_div = WebDriverWait(driver, 15).until(
-										EC.presence_of_element_located((By.ID, "background-education"))
+										EC.presence_of_element_located((By.ID, "education"))
 									)
 				school_info = schools_div.text
 				#print type(school_info)
 				with open(OUTFILE, 'a') as outfile:
 					CNT += 1
 					print CNT
-					print "writing background-education div..."
+					print "writing education div..."
 					outfile.write(school_info.encode('utf8'))
 					outfile.write("\n\n\n")
 			except:
