@@ -13,8 +13,7 @@ PASS = sys.argv[2]
 QUERY = "Microsoft"
 #INFILE = 'linked_urls_test_wiht_never_sleep.json'
 INFILE = 'test_dir.json'
-OUTFILE = 'linked_edu_test_2.json'
-COUNT = 0
+OUTFILE = 'linked_edu_test_dir.json'
 
 driver = webdriver.Chrome()
 driver.get("http://www.linkedin.com")
@@ -25,6 +24,24 @@ pass_field = driver.find_element_by_name("session_password")
 user_field.send_keys(USER)
 pass_field.send_keys(PASS)
 pass_field.send_keys(Keys.ENTER)
+
+def linked_education():
+	try:
+		schools_div = WebDriverWait(driver, 15).until(
+											EC.presence_of_element_located((By.ID, "background-education"))
+										)
+	except:
+		try:
+			schools_div = WebDriverWait(driver, 15).until(
+					EC.presence_of_element_located((By.ID, "education"))
+				)
+		except:
+			raise NoSuchElementException
+	school_info = schools_div.text
+	#print type(school_info)
+	with open(OUTFILE, 'a') as outfile:
+		outfile.write(school_info.encode('utf8'))
+		outfile.write("\n\n\n")
 
 with open(INFILE, 'r') as urls:
 	for url in urls:
@@ -45,7 +62,11 @@ with open(INFILE, 'r') as urls:
 					if QUERY in content_text:
 						link = linked_text.get_attribute("href")
 						driver.get(link)
-						break
+						try:
+							linked_education()
+							break
+						except:
+							break
 					else:
 						continue
 			else:
@@ -57,6 +78,11 @@ with open(INFILE, 'r') as urls:
 					if QUERY in desc_text:
 						link = li.find_element_by_tag_name("a").get_attribute("href")
 						driver.get(link)
+						try:
+							linked_education
+							break
+						except:
+							break
 						break
 		else:
 			driver.get(url)
@@ -70,9 +96,8 @@ with open(INFILE, 'r') as urls:
 									)
 				school_info = schools_div.text
 				#print type(school_info)
-				COUNT += 1
 				with open(OUTFILE, 'a') as outfile:
 					outfile.write(school_info.encode('utf8'))
 					outfile.write("\n\n\n")
 			except:
-				continue			
+				continue
