@@ -9,37 +9,39 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC 
 from selenium.webdriver.common.proxy import *
 
-#USER = sys.argv[1]
-#PASS = sys.argv[2]
+USER = sys.argv[1]
+PASS = sys.argv[2]
 QUERY = "Microsoft"
-INFILE = 'linked_urls_test_wiht_never_sleep.json'
+INFILE = 'linked_err_urls_bypass.json'
 #INFILE = 'test_dir.json'
 #INFILE = 'linked_one_dir.json'
 OUTFILE = 'linked_bypass_test.json'
 #OUTFILE = 'linked_edu_dir_test.json'
 #OUTFILE = 'linked_one_dir_test.json'
-URLFILE = 'linked_snd_urls_bypass.json'
-ERRFILE = 'linked_err_urls_bypass.json'
+URLFILE = 'linked_third_urls_bypass.json'
+ERRFILE = 'linked_snd_err_urls_bypass.json'
 CNT = 0
 
 options = webdriver.ChromeOptions()
 options.add_argument('--user-agent=Mozilla/5.0(compatible; Googlebot/2.1; +http://www.google.com/bot.html)')
 driver = webdriver.Chrome(chrome_options=options)
+#raw_input("Press Enter to continue...")
 driver.get("http://www.linkedin.com")
 #test = WebDriverWait(driver, 60).until(EC.presence_of_element_located((By.ID, "dargrus")))
-'''
+
 user_field = driver.find_element_by_name("session_key")
 pass_field = driver.find_element_by_name("session_password")
 
 user_field.send_keys(USER)
 pass_field.send_keys(PASS)
 pass_field.send_keys(Keys.ENTER)
-'''
+
 
 with open(INFILE, 'r') as urls:
 	for url in urls:
-		time.sleep(10) #check minimal time delay
+		#time.sleep(5) #check minimal time delay
 		if 'dir' in url:
+			print url
 			driver.get(url)
 			try:
 				body_class = WebDriverWait(driver, 15).until(
@@ -70,7 +72,10 @@ with open(INFILE, 'r') as urls:
 						with open(URLFILE, 'a') as urlfile:
 							urlfile.write(link)
 							urlfile.write('\n')
-		elif '/in/' in url:
+		elif '/in/' in url or '/profile/' in url:
+			url = url.split('//')[1]
+			url = "http://" + USER + ":" + PASS + "@" + url
+			print url
 			try:
 				driver.get(url)
 			except TimeoutException:
@@ -80,16 +85,16 @@ with open(INFILE, 'r') as urls:
 				pass_field.send_keys(PASS)
 				pass_field.send_keys(Keys.ENTER)
 			try:
-				print "trying to find education div..."
+				print "trying to find background-education div..."
 				schools_div = WebDriverWait(driver, 15).until(
-										EC.presence_of_element_located((By.ID, "education"))
+										EC.presence_of_element_located((By.ID, "background-education"))
 									)
 				school_info = schools_div.text
 				#print type(school_info)
 				with open(OUTFILE, 'a') as outfile:
 					CNT += 1
 					print CNT
-					print "writing education div..."
+					print "writing background-education div..."
 					outfile.write(school_info.encode('utf8'))
 					outfile.write("\n\n\n")
 			except:
