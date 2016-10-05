@@ -4,6 +4,7 @@
   "description": "This is an innocuous chrome extension.",
   "permissions": ["webRequest", "webRequestBlocking",
                   "http://www.ft.com/*",
+                  "http://next.ft.com/*",
                   "http://www.wsj.com/*",
                   "https://www.wsj.com/*",
                   "http://www.economist.com/*",

@@ -1,0 +1,22 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_popup": "popup.html"
+   },
+   "description": "Read news articles behind paywalls",
+   "icons": {
+      "128": "bypass.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmswgha7bMTiB/tk7NHTxN7QLWu4SjOEchg0e3b0D4kJZb7hGUsZ1VybKcVC5L+WGHu1aNRW4IRNl1tFk7VqNz/xnWLwK8QLA0N2jlW++KsvV7HINoMzfM3VnpWWx9J1rToOd2H8ESRULma93fS0jcc2E8VkbHFsR3WgIks2jc3wDCdxo8IMc44wQEMzAffaF0lwsHLky9u5uhNzVYQRmHmnVBGVCjL2FpItdekWuDRQabX0Vo5N9llXmJ6FeiftJql6xJuWq/B3be1FaNuz6ulcX84/Q8E8WBqHTySIi2pxW5NKVANz5tUfH2J8dsJjD2+xg5q9HbrnBGsLa0a4NYwIDAQAB",
+   "manifest_version": 2,
+   "name": "Bypass WSJ & Other Sites",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html"
+   },
+   "permissions": [ "*://*.baltimoresun.com/", "*://*.barrons.com/", "*://*.chicagobusiness.com/", "*://*.chicagotribune.com/", "*://*.dailypress.com/", "*://*.economist.com/", "*://*.ft.com/", "*://*.courant.com/", "*://*.hbr.org/", "*://*.inc.com/", "*://*.jacksonville.com/", "*://*.latimes.com/", "*://*.mcall.com/", "*://*.medscape.com/", "*://*.newyorker.com/", "*://*.orlandosentinel.com/", "*://*.quora.com/", "*://*.telegraph.co.uk/", "*://*.theage.com.au/", "*://*.thenation.com/", "*://*.tribdss.com/", "*://*.smh.com.au/", "*://*.sun-sentinel.com/", "*://*.washingtonpost.com/", "*://*.wsj.com/", "storage", "webRequest", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.16"
+}

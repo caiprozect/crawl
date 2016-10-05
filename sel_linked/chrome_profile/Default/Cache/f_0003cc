@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[selenium-users] How to use chrome extension when opening chrome browser on a node. - Grokbase</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script><script type="text/javascript" src="/cc/gb2.js"></script>
+<link rel="stylesheet" type="text/css" href="/cc/gb3.css" />
+<link rel="canonical" href="/t/gg/selenium-users/126cz1c35b/how-to-use-chrome-extension-when-opening-chrome-browser-on-a-node" /><meta name="description" content="(7 replies) This my set up: I am running Selenium 2 grid, from my hub i am starting a chrome driver and am trying to pass the chrome extension i want to open the browser with on the node using the following code: object[] _chromecap = { &quot;--start-maximized&quot;, @&quot;--load-extension= WebCapture.crx&quot; }; _capabilities = DesiredCapabilities.Chrome(); _capabilities.SetCapability(&quot;chrome.binary&quot;, @&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;)" /><link rel="alternate" type="application/rss+xml" title="RSS feed for selenium-users @ googlegroups.com" href="http://grokbase.com/g/gg/selenium-users/feed" /><link rel="alternate" type="application/rss+xml" title="RSS feed for this discussion" href="http://grokbase.com/t/gg/selenium-users/126cz1c35b/how-to-use-chrome-extension-when-opening-chrome-browser-on-a-node/feed" /><link rel="stylesheet" type="text/css" href="/cc/badges20.css" /><link rel="stylesheet" type="text/css" href="/cc/teambadges20.css" /><script type="text/javascript" src="/cc/jq/p/jquery.hotkeys.js"></script><link rel="stylesheet" type="text/css" href="/cc/jq/qtip2/jquery.qtip2.master.css" />
+<link rel="stylesheet" type="text/css" href="/cc/jq/qtip2/jquery.qtip2.min.css" />
+<script type="text/javascript" src="/cc/jq/qtip2/jquery.qtip2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('a[href^="/user/"]').each(function() {
+		var url='/ucard/' + $(this).attr('href').split('/')[3] + '/selenium-users@googlegroups.com';
+		$(this).qtip({content:{text:'<img class="throbber" src="/cc/img/anim.throbber.gif" alt="Loading..." />',ajax:{url:url}},position:{at:'bottom center',my:'top center',viewport:$(window),effect:false},show:{solo:true},style:{classes:'ui-tooltip-wiki ui-tooltip-light ui-tooltip-shadow'}})
+	})
+});
+</script>
+	</head>
+<body itemscope itemtype="http://schema.org/WebPage"><a name="top"></a>
+
+	<!-- beg topbar -->
+	<div style="background-color:#efefef;padding:0.5em 0 0.5em 0;border-bottom:1px #ccc solid">
+		<div class="container theme-showcase" role="main">
+			<div class="row" style="padding:0.5em 0 0.5ems 0">
+				<div class="col-sm-6 col-md-6 col-lg-6">
+
+							<div itemprop="breadcrumb"><a href="/">Grokbase</a> <span class="inactive">&rsaquo;</span> <a href="/groups">Groups</a> <span class="inactive">&rsaquo;</span> <a href="/s/selenium">Selenium</a> <span class="inactive">&rsaquo;</span> <a href="/g/gg/selenium-users">selenium-users</a> <span class="inactive">&rsaquo;</span> <a href="/g/gg/selenium-users/2012/06">June 2012</a></div>			
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-6 pull-right">
+
+					<form style="float:right" class="topbar_search" action="/search" method="get"><input onclick="if (this.value=='search'){this.value='';return false;}" onblur="if (this.value==''){this.value='search';return false}" name="q" id="q" class="topbar_search" type="text" value="search" /></form>
+				
+					<span style="float:right;margin-right:1em">
+					<a href="/faq">FAQ</a> <script type="text/javascript">
+						gbOSch();
+					</script>
+					</span>
+
+				</div>
+			</div>
+		</div>
+	</div><!-- end topbar -->
+	
+	<div class="container theme-showcase" role="main" style="margin:1em auto">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+				<a href="/"><img src="http://grokbase.com/cc/img/logo_grokbase_ff.png" /></a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md6 col-lg-6 pull-right">
+
+<ul class="nav nav-pills gb3-pill-top">
+  <li class="pull-right gb3-pill-top" role="presentation"><a href="/badges" class="gb3-pill-top" style="padding:0.3em 1em 0.3em 1em">Badges</a></li>
+  <li class="pull-right gb3-pill-top" role="presentation"><a href="/users" class="gb3-pill-top" style="padding:0.3em 1em 0.3em 1em">Users</a></li>
+  <li class="pull-right gb3-pill-top gb3-pill-top-active" role="presentation"><a href="/groups" class="gb3-pill-top" style="padding:0.3em 1em 0.3em 1em">Groups</a></li>
+</ul>
+
+			</div>
+		</div>
+	</div>
+
+	<div style="clear:both;"></div>
+
+<div id="fb-root"></div>
+	<div class="main">
+
+
+	<!--iv class="sup2header"><h1 class="sup2header_text hl_y">[selenium-users] How to use chrome extension when opening chrome browser on a node.</h1>
+
+	<div class="sup2buttons"><a href="http://grokbase.com/g/gg/selenium-users/feed" title="RSS feed for selenium-users @ googlegroups.com"><img src="/ico/sbj/rss/24" /></a> <a href="/t/gg/selenium-users/126cz1c35b/how-to-use-chrome-extension-when-opening-chrome-browser-on-a-node/feed" title="RSS feed for this dicussion"><img src="/ico/sbj/rss/24" /></a></div>
+	</div-->
+
+		<div class="container theme-showcase" role="main">
+			<div class="row" style="padding-bottom:1em">
+				<div class="col-sm-12">
+
+					<ul class="nav nav-tabs nav">
+						<li role="presentation" class="gb3-tab-pull-left"><h1 style="color:#000;font-size:120%;margin:0;padding:0;font-weight:bold">[selenium-users] How to use chrome extension when opening chrome browser on a node.</h1></li>
+
+	<div class="sup2buttons" style="text-align:right"><a href="http://grokbase.com/g/gg/selenium-users/feed" title="RSS feed for selenium-users @ googlegroups.com"><i class="fa fa-rss-square fa_rss_lg"></i></a> <a href="/t/gg/selenium-users/126cz1c35b/how-to-use-chrome-extension-when-opening-chrome-browser-on-a-node/feed" title="RSS feed for this dicussion"><i class="fa fa-rss-square fa_rss_lg"></i></a></div>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	<!--div class="main_1"-->
+	<div class="container theme-showcase" role="main"><!-- begin main container -->
+		<div class="row" style="padding:0.5em 0 0.5ems 0"><!-- begin main row -->
+			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-9"><!-- begin main col-1 -->
+
+						<div itemscope itemtype="http://schema.org/Article" class="highlightable" rel="201206127bmdflttwxuj5krbvfq2fag7ju">
+			<div style="padding:0 0 0.5em 0">
+<table style="font-size:100%" border="0"><tr><td style="vertical-align:top" rowspan="2"><a href="/user/Newbee/KphRHJwsfTrZACX6MBmp2c" title="Newbee"><img class="av_md" src="/avatar/KphRHJwsfTrZACX6MBmp2c/40" alt="Newbee" width="40" height="40" /></a></td><td style="padding-left:0.5em;vertical-align:top;white-space:nowrap"><span style="margin-top:-5px"><a href="/user/Newbee/KphRHJwsfTrZACX6MBmp2c"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="hl_y">Newbee</span><meta itemprop="url" content="/user/Newbee/KphRHJwsfTrZACX6MBmp2c"/></span></a></span></td><td style="width:100%"></td></tr><tr><td style="padding-left:0.5em" colspan="2"><a class="dt_y4" href="/g/gg/selenium-users/2012/06">Jun 12, 2012 at 8:21 pm</a></td>
+</tr></table>
+			</div>
+			<div style="clear:both"></div>
+			<meta itemprop="name" content=""/>
+			<meta itemprop="interactionCount" content="UserComments:7"/>
+			<div class="m_body m_body_one hl_y" itemprop="articleBody">This my set up:<br /><br />I am running Selenium 2 grid, from my hub i am starting a chrome driver and<br />am trying to pass the chrome extension i want to open the browser with on<br />the node using the following code:<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;object[] _chromecap = { &quot;--start-maximized&quot;,<br />@&quot;--load-extension= WebCapture.crx&quot; };<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_capabilities = DesiredCapabilities.Chrome();<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br /><br /><br />But when i run this i get an error on the node &quot;Manifest file not found&quot;.<br /><br />I then try the following:<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;object[] _chromecap = { &quot;--start-maximized&quot;};<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;object [] _chromeext = {<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;};<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_capabilities = DesiredCapabilities.Chrome();<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_capabilities.SetCapability(&quot;chrome.switches&quot;,<br />_chromecap.ToList());<br /><br />but now i get an error that &quot;Failed to base64 decode extension&quot;. I am at<br />the end of my wits rt now.. any assistance is welcome..<br /><br />Thanks<br /><a id="qc_201206127bmdflttwxuj5krbvfq2fag7ju_z__ctl" class="qc_ctl" href="#"></a><div id="qc_201206127bmdflttwxuj5krbvfq2fag7ju_z" class="qc_cnt"><br />--<br />You received this message because you are subscribed to the Google Groups &quot;Selenium Users&quot; group.<br />To view this discussion on the web visit <a href="https://groups.google.com/d/msg/selenium-users/-/Rgkr8FRKrb0J." rel="nofollow">https://groups.google.com/d/msg/selenium-users/-/Rgkr8FRKrb0J.</a><br />To post to this group, send email to selenium-users@googlegroups.com.<br />To unsubscribe from this group, send email to selenium-users+unsubscribe@googlegroups.com.<br />For more options, visit this group at <a href="http://groups.google.com/group/selenium-users?hl=en-US." rel="nofollow">http://groups.google.com/group/selenium-users?hl=en-US.</a></div></div>
+			<div style="margin-top:1em"><a href="mailto:selenium-users%40googlegroups.com?In-Reply-To=%3C9fea6b9a-a91c-470a-95a9-1b23d7dfb653%40googlegroups.com%3E&Subject=%5Bselenium-users%5D%20How%20to%20use%20chrome%20extension%20when%20opening%20chrome%20browser%20on%20a%20node.">reply</a></div>
+			<div style="clear:both"></div>
+		</div>
+
+<table border="0" style="margin:0;padding:4px 0 0 0;">
+<tr><td style="text-align:top">
+<div class="fb-like" data-href="http://grokbase.com/p/gg/selenium-users/126cz1c35b" data-send="false" data-layout="box_count" data-show-faces="false"></div>
+</td><td style="text-align:top">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="vertical">Tweet</a>
+</td><td style="padding-left:10px;text-align:top">
+<g:plusone size="tall"></g:plusone>
+</td><td style="padding-left:10px;text-align:top">
+<script type="text/javascript" src="http://www.reddit.com/static/button/button2.js"></script>
+</td></tr>
+</table>
+<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+
+		
+		<div><h2 style="font-weight:bold;color:#000;font-size:130%">Search Discussions</h2></div>
+		<div class="input-group" style="width:50%">
+			<form action="/search" id="gcse_g_search">
+				<input type="text" name="q" class="form-control" placeholder="Search for..." value="" />
+				<span class="input-group-btn">
+					<button class="btn btn-default" type="submit">Search</button>
+				</span>
+				<input id="sch1_gfa" type="radio" name="f" value="aa/site" /> <label for="sch1_gfa">All Groups</label> <input id ="sch1_gf" type="radio" name="f" value="gt/gg/selenium-users" checked="checked" /> <label for="sch1_gf">selenium-users</label>			</form>
+		</div><!-- /input-group -->
+
+			
+		<a name="responses_tab_top"></a>
+
+		<!--iv class="container theme-showcase" role="main">
+		<div class="row"><div class="col-xs-12 col-sm-12 col-md-12 col-lg-12-->
+			<ul class="nav nav-tabs nav" style="margin-top:2em">
+				<li role="presentation" class="gb3-tab-pull-left">7 responses</li>
+				<li role="presentation" class="pull-right"><a href="/t/gg/selenium-users/126cz1c35b/how-to-use-chrome-extension-when-opening-chrome-browser-on-a-node/oldest#responses_tab_top" class="gb3-tab">Oldest</a></li>
+				<li role="presentation" class="active pull-right"><a href="/t/gg/selenium-users/126cz1c35b/how-to-use-chrome-extension-when-opening-chrome-browser-on-a-node#responses_tab_top" class="gb3-tab-active ">Nested</a></li>
+			</ul>
+		<!--/div></div></div-->
+
+		<div style="clear:both;height:1em"></div>
+		<ul id="responses" class="nobullet">
+		
+		<li id="20120612fwfxcaingmaklwf7hqqp5xicea_li" class="responses">
+		<div itemscope itemtype="http://schema.org/Article">
+			<a id="20120612fwfxcaingmaklwf7hqqp5xicea" name="126c5p5q20" title="20120612fwfxcaingmaklwf7hqqp5xicea,,"></a>
+			<meta itemprop="name" content=""/>
+
+			<table border="0" id="20120612fwfxcaingmaklwf7hqqp5xicea_thinhead" class="tr_head_thin rc_ctl_thin hl_y" style="display:none"><tr><td id="20120612fwfxcaingmaklwf7hqqp5xicea_th_indent" class="indent1 indentd0" style="width:20px;margin:0;padding:0 0 0 0px"><img class="av_sm avatar tr_avatar" src="/avatar/1t49cvEJeNJYR7fi349xbw/20" alt="Jim Evans" />
+				</td><td class="tr_head_content tr_head_thin_content tr_head_content_right" style="width:100%;overflow:hidden"><div class="tr_head_thin_content">
+				<strong>Jim Evans</strong> <span itemprop="articleBody">What happens when you use the ChromeOptions class? For example: ChromeOptions options = new ChromeOptions(); options.AddExtension(@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;); options.AddArgument(&quot;--start-maximized&quot;); options.BinaryLocation = @&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;; // For a local ChromeDriver, use this: IWebDriver driver = new ChromeDriver(options); // For using RemoteWebDriver,</span></div>
+			</td><td><div style="width:20px"><a href="/badges/selenium"><div title="Silver Selenium badge (587 posts)" class="u_badge badge_tn badge_tn_2_selenium"></div></a></div></td></tr></table>
+
+			<table id="20120612fwfxcaingmaklwf7hqqp5xicea_fullhead" class="rbody tr_head_full"><tr><td id="20120612fwfxcaingmaklwf7hqqp5xicea_fh_indent" class="indent1 indentd0" style="width:20px;margin:0;padding:0 0 0 0px"><a href="/user/Jim-Evans/1t49cvEJeNJYR7fi349xbw"><img class="av_sm avatar tr_avatar" src="/avatar/1t49cvEJeNJYR7fi349xbw/20" alt="Jim Evans" /></a>				</td><td class="tr_head_content tr_head_full_content_user">
+				<strong><span itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="url" content="/user/Jim-Evans/1t49cvEJeNJYR7fi349xbw"/><a class="tr_head_user" href="/user/Jim-Evans/1t49cvEJeNJYR7fi349xbw"><span class="hl_y" itemprop="name">Jim Evans</span></a></span></strong> </td>
+				<td id="20120612fwfxcaingmaklwf7hqqp5xicea_fullhead_ctl" class="tr_head_content tr_head_content_right rc_ctl_full" style='padding-top:2px'> at <span class="dt_y4 relativetime">Jun 12, 2012 at 9:21 pm</span>
+			</td><td>
+			<a href="#top">&#8679;</a></td><td style="margin-top:0px"><a href="#20120612fwfxcaingmaklwf7hqqp5xicea"><img src="/cc/img/nav/icon_anchor_16x16.png" /></a>
+			</td><td><div style="width:20px"><a href="/badges/selenium"><div title="Silver Selenium badge (587 posts)" class="u_badge badge_tn badge_tn_2_selenium"></div></a></div></td></tr></table>
+
+			<div id="20120612fwfxcaingmaklwf7hqqp5xicea_content" class="rbody m_body indent2 indentd0 tr_content hl_y" style="padding-left:30px;">
+				What happens when you use the ChromeOptions class? For example:<br /><br />ChromeOptions options = new ChromeOptions();<br />options.AddExtension(@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;);<br />options.AddArgument(&quot;--start-maximized&quot;);<br />options.BinaryLocation =<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;;<br /><br />// For a local ChromeDriver, use this:<br />IWebDriver driver = new ChromeDriver(options);<br /><br />// For using RemoteWebDriver, use (changing<br />&quot;http://your/remote/server:port/wd/hub&quot; to point to your remote server):<br />// DesiredCapabilities capabilities = DesiredCapabilities.Chrome();<br />// capabilities.SetCapability(ChromeOptions.Capability, options);<br />// RemoteWebDriver driver = new RemoteWebDriver(new<br />Uri(&quot;http://your/remote/server:port/wd/hub&quot;), capabilities);<br /><a id="qc_20120612fwfxcaingmaklwf7hqqp5xicea_z__ctl" class="qc_ctl" href="#"></a><div id="qc_20120612fwfxcaingmaklwf7hqqp5xicea_z" class="qc_cnt"><div class="ql ql0"><span class="qc_wrote">On Tuesday, June 12, 2012 4:20:56 PM UTC-4, Newbee wrote:</span><br /><br />This my set up:<br /><br />I am running Selenium 2 grid, from my hub i am starting a chrome driver<br />and am trying to pass the chrome extension i want to open the browser with<br />on the node using the following code:<br />object[] _chromecap = { &quot;--start-maximized&quot;,<br />@&quot;--load-extension= WebCapture.crx&quot; };<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br /><br /><br />But when i run this i get an error on the node &quot;Manifest file not found&quot;.<br /><br />I then try the following:<br /><br />object[] _chromecap = { &quot;--start-maximized&quot;};<br />object [] _chromeext = {<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;};<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br />_capabilities.SetCapability(&quot;chrome.switches&quot;,<br />_chromecap.ToList());<br /><br />but now i get an error that &quot;Failed to base64 decode extension&quot;. I am at<br />the end of my wits rt now.. any assistance is welcome..<br /><br />Thanks <br /><span class="qc_wrote">On Tuesday, June 12, 2012 4:20:56 PM UTC-4, Newbee wrote:</span><br /><br />This my set up:<br /><br />I am running Selenium 2 grid, from my hub i am starting a chrome driver<br />and am trying to pass the chrome extension i want to open the browser with<br />on the node using the following code:<br />object[] _chromecap = { &quot;--start-maximized&quot;,<br />@&quot;--load-extension= WebCapture.crx&quot; };<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br /><br /><br />But when i run this i get an error on the node &quot;Manifest file not found&quot;.<br /><br />I then try the following:<br /><br />object[] _chromecap = { &quot;--start-maximized&quot;};<br />object [] _chromeext = {<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;};<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br />_capabilities.SetCapability(&quot;chrome.switches&quot;,<br />_chromecap.ToList());<br /><br />but now i get an error that &quot;Failed to base64 decode extension&quot;. I am at<br />the end of my wits rt now.. any assistance is welcome..<br /><br />Thanks</div>--<br />You received this message because you are subscribed to the Google Groups &quot;Selenium Users&quot; group.<br />To view this discussion on the web visit <a href="https://groups.google.com/d/msg/selenium-users/-/heiksO8kWXcJ." rel="nofollow">https://groups.google.com/d/msg/selenium-users/-/heiksO8kWXcJ.</a><br />To post to this group, send email to selenium-users@googlegroups.com.<br />To unsubscribe from this group, send email to selenium-users+unsubscribe@googlegroups.com.<br />For more options, visit this group at <a href="http://groups.google.com/group/selenium-users?hl=en-US." rel="nofollow">http://groups.google.com/group/selenium-users?hl=en-US.</a></div>				<div style="margin-top:1em">
+					<a href="mailto:selenium-users%40googlegroups.com?In-Reply-To=%3Ceddb879e-88e5-4655-ba35-902a283c5237%40googlegroups.com%3E&Subject=%5Bselenium-users%5D%20Re%3A%20How%20to%20use%20chrome%20extension%20when%20opening%20chrome%20browser%20on%20a%20node.">reply</a> <span class="inactive">|</span> <a href="/p/gg/selenium-users/126c5p5q20/how-to-use-chrome-extension-when-opening-chrome-browser-on-a-node">permalink</a>
+				</div>
+			</div>
+
+		</div><!-- so.article -->
+		<div style="clear:both"></div>
+		</li>
+
+		
+		<li id="20120612wqvl7wfaneypdiqeox5ov2sdum_li" class="responses">
+		<div itemscope itemtype="http://schema.org/Article">
+			<a id="20120612wqvl7wfaneypdiqeox5ov2sdum" name="126cpgnbzp" title="20120612wqvl7wfaneypdiqeox5ov2sdum,,"></a>
+			<meta itemprop="name" content=""/>
+
+			<table border="0" id="20120612wqvl7wfaneypdiqeox5ov2sdum_thinhead" class="tr_head_thin rc_ctl_thin hl_y" style="display:none"><tr><td id="20120612wqvl7wfaneypdiqeox5ov2sdum_th_indent" class="indent1 indentd1" style="width:20px;margin:0;padding:0 0 0 16px"><img class="av_sm avatar tr_avatar" src="/avatar/KphRHJwsfTrZACX6MBmp2c/20" alt="Newbee" />
+				</td><td class="tr_head_content tr_head_thin_content tr_head_content_right" style="width:100%;overflow:hidden"><div class="tr_head_thin_content">
+				<strong>Newbee</strong> <span itemprop="articleBody">Jim that worked!! ... but it looks like the extension is being sent from the hub to the node through the network. Is this the most efficient way to proceed? Can i not just open the node chrome browser with the extension installed? May be the following steps might make it more clear. 1. Manually open chrome browser, drag and drop the extension in chrome. 2. It asks if i want to Install it, i go ahead and install this. 3. Next time I go to the specific URL manually that needs this extension to</span></div>
+			</td><td><div style="width:20px"><div title="Original poster / discussion starter" class="u_badge badge_tn badge_tn_1_infoop"></div></div></td></tr></table>
+
+			<table id="20120612wqvl7wfaneypdiqeox5ov2sdum_fullhead" class="rbody tr_head_full"><tr><td id="20120612wqvl7wfaneypdiqeox5ov2sdum_fh_indent" class="indent1 indentd1" style="width:20px;margin:0;padding:0 0 0 16px"><a href="/user/Newbee/KphRHJwsfTrZACX6MBmp2c"><img class="av_sm avatar tr_avatar" src="/avatar/KphRHJwsfTrZACX6MBmp2c/20" alt="Newbee" /></a>				</td><td class="tr_head_content tr_head_full_content_user">
+				<strong><span itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="url" content="/user/Newbee/KphRHJwsfTrZACX6MBmp2c"/><a class="tr_head_user" href="/user/Newbee/KphRHJwsfTrZACX6MBmp2c"><span class="hl_y" itemprop="name">Newbee</span></a></span></strong> </td>
+				<td id="20120612wqvl7wfaneypdiqeox5ov2sdum_fullhead_ctl" class="tr_head_content tr_head_content_right rc_ctl_full" style='padding-top:2px'> at <span class="dt_y4 relativetime">Jun 12, 2012 at 9:34 pm</span>
+			</td><td>
+			<a href="#top">&#8679;</a></td><td style="margin-top:0px"><a href="#20120612wqvl7wfaneypdiqeox5ov2sdum"><img src="/cc/img/nav/icon_anchor_16x16.png" /></a>
+			</td><td><div style="width:20px"><div title="Original poster / discussion starter" class="u_badge badge_tn badge_tn_1_infoop"></div></div></td></tr></table>
+
+			<div id="20120612wqvl7wfaneypdiqeox5ov2sdum_content" class="rbody m_body indent2 indentd1 tr_content hl_y" style="padding-left:46px;">
+				Jim that worked!! ... but it looks like the extension is being sent from<br />the hub to the node through the network. Is this the most efficient way to<br />proceed?<br /><br />Can i not just open the node chrome browser with the extension installed?<br />May be the following steps might make it more clear.<br /><br />1. Manually open chrome browser, drag and drop the extension in chrome.<br />2. It asks if i want to Install it, i go ahead and install this.<br />3. Next time I go to the specific URL manually that needs this extension to<br />run, it runs fine without any pop-ups.<br />4. Start my code to run from the hub, (without the path to use the<br />extension). It asks me to install the extension every single time.<br /><br />I understand that it is opening a completely new copy of chrome every<br />single time, but is there no other way this can be handeled on the node<br />instead of sending the extension over the hub? just wondering....<br /><br />But thanks for the code above ... its working for my setup as is.<br /><a id="qc_20120612wqvl7wfaneypdiqeox5ov2sdum_z__ctl" class="qc_ctl" href="#"></a><div id="qc_20120612wqvl7wfaneypdiqeox5ov2sdum_z" class="qc_cnt"><div class="ql ql0"><span class="qc_wrote">On Tuesday, June 12, 2012 2:21:09 PM UTC-7, Jim Evans wrote:</span><br /><br />What happens when you use the ChromeOptions class? For example:<br /><br />ChromeOptions options = new ChromeOptions();<br /><br />options.AddExtension(@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;);<br />options.AddArgument(&quot;--start-maximized&quot;);<br />options.BinaryLocation =<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;;<br /><br />// For a local ChromeDriver, use this:<br />IWebDriver driver = new ChromeDriver(options);<br /><br />// For using RemoteWebDriver, use (changing &quot;<br /><a href="http://your/remote/server:port/wd/hub"" rel="nofollow">http://your/remote/server:port/wd/hub&quot;</a> to point to your remote server):<br />// DesiredCapabilities capabilities = DesiredCapabilities.Chrome();<br />// capabilities.SetCapability(ChromeOptions.Capability, options);<br />// RemoteWebDriver driver = new RemoteWebDriver(new Uri(&quot;<br /><a href="http://your/remote/server:port/wd/hub")," rel="nofollow">http://your/remote/server:port/wd/hub&quot;),</a> capabilities);<br /><div class="ql ql1"><span class="qc_wrote">On Tuesday, June 12, 2012 4:20:56 PM UTC-4, Newbee wrote:</span><br /><br />This my set up:<br /><br />I am running Selenium 2 grid, from my hub i am starting a chrome driver<br />and am trying to pass the chrome extension i want to open the browser with<br />on the node using the following code:<br />object[] _chromecap = { &quot;--start-maximized&quot;,<br />@&quot;--load-extension= WebCapture.crx&quot; };<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br /><br /><br />But when i run this i get an error on the node &quot;Manifest file not found&quot;.<br /><br />I then try the following:<br /><br />object[] _chromecap = { &quot;--start-maximized&quot;};<br />object [] _chromeext = {<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;};<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br />_capabilities.SetCapability(&quot;chrome.switches&quot;,<br />_chromecap.ToList());<br /><br />but now i get an error that &quot;Failed to base64 decode extension&quot;. I am at<br />the end of my wits rt now.. any assistance is welcome..<br /><br />Thanks <br /><span class="qc_wrote">On Tuesday, June 12, 2012 4:20:56 PM UTC-4, Newbee wrote:</span><br /><br />This my set up:<br /><br />I am running Selenium 2 grid, from my hub i am starting a chrome driver<br />and am trying to pass the chrome extension i want to open the browser with<br />on the node using the following code:<br />object[] _chromecap = { &quot;--start-maximized&quot;,<br />@&quot;--load-extension= WebCapture.crx&quot; };<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br /><br /><br />But when i run this i get an error on the node &quot;Manifest file not found&quot;.<br /><br />I then try the following:<br /><br />object[] _chromecap = { &quot;--start-maximized&quot;};<br />object [] _chromeext = {<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;};<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br />_capabilities.SetCapability(&quot;chrome.switches&quot;,<br />_chromecap.ToList());<br /><br />but now i get an error that &quot;Failed to base64 decode extension&quot;. I am at<br />the end of my wits rt now.. any assistance is welcome..<br /><br />Thanks</div></div>--<br />You received this message because you are subscribed to the Google Groups &quot;Selenium Users&quot; group.<br />To view this discussion on the web visit <a href="https://groups.google.com/d/msg/selenium-users/-/sxhyETcbUsAJ." rel="nofollow">https://groups.google.com/d/msg/selenium-users/-/sxhyETcbUsAJ.</a><br />To post to this group, send email to selenium-users@googlegroups.com.<br />To unsubscribe from this group, send email to selenium-users+unsubscribe@googlegroups.com.<br />For more options, visit this group at <a href="http://groups.google.com/group/selenium-users?hl=en-US." rel="nofollow">http://groups.google.com/group/selenium-users?hl=en-US.</a></div>				<div style="margin-top:1em">
+					<a href="mailto:selenium-users%40googlegroups.com?In-Reply-To=%3Cc3d4d439-1202-4334-a650-50aac1adf3c3%40googlegroups.com%3E&Subject=%5Bselenium-users%5D%20Re%3A%20How%20to%20use%20chrome%20extension%20when%20opening%20chrome%20browser%20on%20a%20node.">reply</a> <span class="inactive">|</span> <a href="/p/gg/selenium-users/126cpgnbzp/how-to-use-chrome-extension-when-opening-chrome-browser-on-a-node">permalink</a>
+				</div>
+			</div>
+
+		</div><!-- so.article -->
+		<div style="clear:both"></div>
+		</li>
+
+		
+		<li id="20120612jv5sybppjcquvevgg6z7qncffi_li" class="responses">
+		<div itemscope itemtype="http://schema.org/Article">
+			<a id="20120612jv5sybppjcquvevgg6z7qncffi" name="126c9nxjr1" title="20120612jv5sybppjcquvevgg6z7qncffi,,"></a>
+			<meta itemprop="name" content=""/>
+
+			<table border="0" id="20120612jv5sybppjcquvevgg6z7qncffi_thinhead" class="tr_head_thin rc_ctl_thin hl_y" style="display:none"><tr><td id="20120612jv5sybppjcquvevgg6z7qncffi_th_indent" class="indent1 indentd2" style="width:20px;margin:0;padding:0 0 0 32px"><img class="av_sm avatar tr_avatar" src="/avatar/1t49cvEJeNJYR7fi349xbw/20" alt="Jim Evans" />
+				</td><td class="tr_head_content tr_head_thin_content tr_head_content_right" style="width:100%;overflow:hidden"><div class="tr_head_thin_content">
+				<strong>Jim Evans</strong> <span itemprop="articleBody">Efficient or not, it&#39;s your only option at present. The Chrome driver doesn&#39;t allow you to specify a custom profile when you launch Chrome[1]. Rather, it creates an empty profile for each instance it&#39;s launching. That means that the extension has to be installed in the profile before Chrome is launched, and since hub and node are (and ought to be) decoupled from one another and have no knowledge of each others&#39; file systems, the only way to get that extension across to the node is to send it</span></div>
+			</td><td><div style="width:20px"><a href="/badges/selenium"><div title="Silver Selenium badge (587 posts)" class="u_badge badge_tn badge_tn_2_selenium"></div></a></div></td></tr></table>
+
+			<table id="20120612jv5sybppjcquvevgg6z7qncffi_fullhead" class="rbody tr_head_full"><tr><td id="20120612jv5sybppjcquvevgg6z7qncffi_fh_indent" class="indent1 indentd2" style="width:20px;margin:0;padding:0 0 0 32px"><a href="/user/Jim-Evans/1t49cvEJeNJYR7fi349xbw"><img class="av_sm avatar tr_avatar" src="/avatar/1t49cvEJeNJYR7fi349xbw/20" alt="Jim Evans" /></a>				</td><td class="tr_head_content tr_head_full_content_user">
+				<strong><span itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="url" content="/user/Jim-Evans/1t49cvEJeNJYR7fi349xbw"/><a class="tr_head_user" href="/user/Jim-Evans/1t49cvEJeNJYR7fi349xbw"><span class="hl_y" itemprop="name">Jim Evans</span></a></span></strong> </td>
+				<td id="20120612jv5sybppjcquvevgg6z7qncffi_fullhead_ctl" class="tr_head_content tr_head_content_right rc_ctl_full" style='padding-top:2px'> at <span class="dt_y4 relativetime">Jun 12, 2012 at 9:55 pm</span>
+			</td><td>
+			<a href="#top">&#8679;</a></td><td style="margin-top:0px"><a href="#20120612jv5sybppjcquvevgg6z7qncffi"><img src="/cc/img/nav/icon_anchor_16x16.png" /></a>
+			</td><td><div style="width:20px"><a href="/badges/selenium"><div title="Silver Selenium badge (587 posts)" class="u_badge badge_tn badge_tn_2_selenium"></div></a></div></td></tr></table>
+
+			<div id="20120612jv5sybppjcquvevgg6z7qncffi_content" class="rbody m_body indent2 indentd2 tr_content hl_y" style="padding-left:62px;">
+				Efficient or not, it&#39;s your only option at present. The Chrome driver<br />doesn&#39;t allow you to specify a custom profile when you launch Chrome[1].<br />Rather, it creates an empty profile for each instance it&#39;s launching. That<br />means that the extension has to be installed in the profile before Chrome<br />is launched, and since hub and node are (and ought to be) decoupled from<br />one another and have no knowledge of each others&#39; file systems, the only<br />way to get that extension across to the node is to send it across the wire.<br /><br />--Jim<br /><br />[1] Documented in the project wiki at<br /><a href="http://code.google.com/p/wiki/ChromeDriver" rel="nofollow">http://code.google.com/p/wiki/ChromeDriver</a><br /><a id="qc_20120612jv5sybppjcquvevgg6z7qncffi_z__ctl" class="qc_ctl" href="#"></a><div id="qc_20120612jv5sybppjcquvevgg6z7qncffi_z" class="qc_cnt"><div class="ql ql0"><span class="qc_wrote">On Tuesday, June 12, 2012 5:34:07 PM UTC-4, Newbee wrote:</span><br /><br />Jim that worked!! ... but it looks like the extension is being sent from<br />the hub to the node through the network. Is this the most efficient way to<br />proceed?<br /><br />Can i not just open the node chrome browser with the extension installed?<br />May be the following steps might make it more clear.<br /><br />1. Manually open chrome browser, drag and drop the extension in chrome.<br />2. It asks if i want to Install it, i go ahead and install this.<br />3. Next time I go to the specific URL manually that needs this extension<br />to run, it runs fine without any pop-ups.<br />4. Start my code to run from the hub, (without the path to use the<br />extension). It asks me to install the extension every single time.<br /><br />I understand that it is opening a completely new copy of chrome every<br />single time, but is there no other way this can be handeled on the node<br />instead of sending the extension over the hub? just wondering....<br /><br />But thanks for the code above ... its working for my setup as is.<br /><div class="ql ql1"><span class="qc_wrote">On Tuesday, June 12, 2012 2:21:09 PM UTC-7, Jim Evans wrote:</span><br /><br />What happens when you use the ChromeOptions class? For example:<br /><br />ChromeOptions options = new ChromeOptions();<br /><br />options.AddExtension(@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;);<br />options.AddArgument(&quot;--start-maximized&quot;);<br />options.BinaryLocation =<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;;<br /><br />// For a local ChromeDriver, use this:<br />IWebDriver driver = new ChromeDriver(options);<br /><br />// For using RemoteWebDriver, use (changing &quot;<br /><a href="http://your/remote/server:port/wd/hub"" rel="nofollow">http://your/remote/server:port/wd/hub&quot;</a> to point to your remote server):<br />// DesiredCapabilities capabilities = DesiredCapabilities.Chrome();<br />// capabilities.SetCapability(ChromeOptions.Capability, options);<br />// RemoteWebDriver driver = new RemoteWebDriver(new Uri(&quot;<br /><a href="http://your/remote/server:port/wd/hub")," rel="nofollow">http://your/remote/server:port/wd/hub&quot;),</a> capabilities);<br /><div class="ql ql2"><span class="qc_wrote">On Tuesday, June 12, 2012 4:20:56 PM UTC-4, Newbee wrote:</span><br /><br />This my set up:<br /><br />I am running Selenium 2 grid, from my hub i am starting a chrome driver<br />and am trying to pass the chrome extension i want to open the browser with<br />on the node using the following code:<br />object[] _chromecap = { &quot;--start-maximized&quot;,<br />@&quot;--load-extension= WebCapture.crx&quot; };<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br /><br /><br />But when i run this i get an error on the node &quot;Manifest file not<br />found&quot;.<br /><br />I then try the following:<br /><br />object[] _chromecap = { &quot;--start-maximized&quot;};<br />object [] _chromeext = {<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;};<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br />_capabilities.SetCapability(&quot;chrome.switches&quot;,<br />_chromecap.ToList());<br /><br />but now i get an error that &quot;Failed to base64 decode extension&quot;. I am at<br />the end of my wits rt now.. any assistance is welcome..<br /><br />Thanks <br /><span class="qc_wrote">On Tuesday, June 12, 2012 4:20:56 PM UTC-4, Newbee wrote:</span><br /><br />This my set up:<br /><br />I am running Selenium 2 grid, from my hub i am starting a chrome driver<br />and am trying to pass the chrome extension i want to open the browser with<br />on the node using the following code:<br />object[] _chromecap = { &quot;--start-maximized&quot;,<br />@&quot;--load-extension= WebCapture.crx&quot; };<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br /><br /><br />But when i run this i get an error on the node &quot;Manifest file not<br />found&quot;.<br /><br />I then try the following:<br /><br />object[] _chromecap = { &quot;--start-maximized&quot;};<br />object [] _chromeext = {<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;};<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br />_capabilities.SetCapability(&quot;chrome.switches&quot;,<br />_chromecap.ToList());<br /><br />but now i get an error that &quot;Failed to base64 decode extension&quot;. I am at<br />the end of my wits rt now.. any assistance is welcome..<br /><br />Thanks</div></div></div>--<br />You received this message because you are subscribed to the Google Groups &quot;Selenium Users&quot; group.<br />To view this discussion on the web visit <a href="https://groups.google.com/d/msg/selenium-users/-/D_GIxUy0UAIJ." rel="nofollow">https://groups.google.com/d/msg/selenium-users/-/D_GIxUy0UAIJ.</a><br />To post to this group, send email to selenium-users@googlegroups.com.<br />To unsubscribe from this group, send email to selenium-users+unsubscribe@googlegroups.com.<br />For more options, visit this group at <a href="http://groups.google.com/group/selenium-users?hl=en-US." rel="nofollow">http://groups.google.com/group/selenium-users?hl=en-US.</a></div>				<div style="margin-top:1em">
+					<a href="mailto:selenium-users%40googlegroups.com?In-Reply-To=%3C6856f8af-6240-4505-957c-4bbe08223f83%40googlegroups.com%3E&Subject=%5Bselenium-users%5D%20Re%3A%20How%20to%20use%20chrome%20extension%20when%20opening%20chrome%20browser%20on%20a%20node.">reply</a> <span class="inactive">|</span> <a href="/p/gg/selenium-users/126c9nxjr1/how-to-use-chrome-extension-when-opening-chrome-browser-on-a-node">permalink</a>
+				</div>
+			</div>
+
+		</div><!-- so.article -->
+		<div style="clear:both"></div>
+		</li>
+
+		
+		<li id="20120612msfeb75ym7pilto23cdicbkhde_li" class="responses">
+		<div itemscope itemtype="http://schema.org/Article">
+			<a id="20120612msfeb75ym7pilto23cdicbkhde" name="126ccj541z" title="20120612msfeb75ym7pilto23cdicbkhde,,"></a>
+			<meta itemprop="name" content=""/>
+
+			<table border="0" id="20120612msfeb75ym7pilto23cdicbkhde_thinhead" class="tr_head_thin rc_ctl_thin hl_y" style="display:none"><tr><td id="20120612msfeb75ym7pilto23cdicbkhde_th_indent" class="indent1 indentd3" style="width:20px;margin:0;padding:0 0 0 48px"><img class="av_sm avatar tr_avatar" src="/avatar/KphRHJwsfTrZACX6MBmp2c/20" alt="Newbee" />
+				</td><td class="tr_head_content tr_head_thin_content tr_head_content_right" style="width:100%;overflow:hidden"><div class="tr_head_thin_content">
+				<strong>Newbee</strong> <span itemprop="articleBody">So i was going through the chrome driver WIKI... below is the way i can set the profile ...but when i try this i chrome crashes. __________________WIKI CODE____________________________________________________________________ Or to load with a specific profile (note that the default profile directories can be found here): DesiredCapabilities capabilities = DesiredCapabilities.chrome(); capabilities.setCapability(&quot;chrome.switches&quot;, Arrays.asList(&quot;--user-data-dir=/path/to/profile/directory&quot;))</span></div>
+			</td><td><div style="width:20px"><div title="Original poster / discussion starter" class="u_badge badge_tn badge_tn_1_infoop"></div></div></td></tr></table>
+
+			<table id="20120612msfeb75ym7pilto23cdicbkhde_fullhead" class="rbody tr_head_full"><tr><td id="20120612msfeb75ym7pilto23cdicbkhde_fh_indent" class="indent1 indentd3" style="width:20px;margin:0;padding:0 0 0 48px"><a href="/user/Newbee/KphRHJwsfTrZACX6MBmp2c"><img class="av_sm avatar tr_avatar" src="/avatar/KphRHJwsfTrZACX6MBmp2c/20" alt="Newbee" /></a>				</td><td class="tr_head_content tr_head_full_content_user">
+				<strong><span itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="url" content="/user/Newbee/KphRHJwsfTrZACX6MBmp2c"/><a class="tr_head_user" href="/user/Newbee/KphRHJwsfTrZACX6MBmp2c"><span class="hl_y" itemprop="name">Newbee</span></a></span></strong> </td>
+				<td id="20120612msfeb75ym7pilto23cdicbkhde_fullhead_ctl" class="tr_head_content tr_head_content_right rc_ctl_full" style='padding-top:2px'> at <span class="dt_y4 relativetime">Jun 12, 2012 at 11:00 pm</span>
+			</td><td>
+			<a href="#top">&#8679;</a></td><td style="margin-top:0px"><a href="#20120612msfeb75ym7pilto23cdicbkhde"><img src="/cc/img/nav/icon_anchor_16x16.png" /></a>
+			</td><td><div style="width:20px"><div title="Original poster / discussion starter" class="u_badge badge_tn badge_tn_1_infoop"></div></div></td></tr></table>
+
+			<div id="20120612msfeb75ym7pilto23cdicbkhde_content" class="rbody m_body indent2 indentd3 tr_content hl_y" style="padding-left:78px;">
+				So i was going through the chrome driver WIKI... below is the way i can set<br />the profile ...but when i try this i chrome crashes.<br /><br />__________________WIKI<br />CODE____________________________________________________________________<br />Or to load with a specific profile (note that the default profile<br />directories can be found here):<br /><br />&nbsp;&nbsp;&nbsp;DesiredCapabilities capabilities = DesiredCapabilities.chrome();<br />&nbsp;&nbsp;&nbsp;capabilities.setCapability(&quot;chrome.switches&quot;,<br />Arrays.asList(&quot;--user-data-dir=/path/to/profile/directory&quot;));<br />&nbsp;&nbsp;&nbsp;WebDriver driver = new ChromeDriver(capabilities);<br />__________________________________________________________________________________________________<br /><br />________________________________My<br />code__________________________________________________________<br /><br />_chroptions.AddArguments(@&quot;--user-data-dir=<br />C:\Users\Administrator\AppData\Local\Google\Chrome\User Data\Default&quot;);<br />_____________________________________________________________________________________________________<br /><a id="qc_20120612msfeb75ym7pilto23cdicbkhde_z__ctl" class="qc_ctl" href="#"></a><div id="qc_20120612msfeb75ym7pilto23cdicbkhde_z" class="qc_cnt"><div class="ql ql0"><span class="qc_wrote">On Tuesday, June 12, 2012 2:55:33 PM UTC-7, Jim Evans wrote:</span><br /><br />Efficient or not, it&#39;s your only option at present. The Chrome driver<br />doesn&#39;t allow you to specify a custom profile when you launch Chrome[1].<br />Rather, it creates an empty profile for each instance it&#39;s launching. That<br />means that the extension has to be installed in the profile before Chrome<br />is launched, and since hub and node are (and ought to be) decoupled from<br />one another and have no knowledge of each others&#39; file systems, the only<br />way to get that extension across to the node is to send it across the wire.<br /><br />--Jim<br /><br />[1] Documented in the project wiki at<br /><a href="http://code.google.com/p/wiki/ChromeDriver" rel="nofollow">http://code.google.com/p/wiki/ChromeDriver</a><br /><div class="ql ql1"><span class="qc_wrote">On Tuesday, June 12, 2012 5:34:07 PM UTC-4, Newbee wrote:</span><br /><br />Jim that worked!! ... but it looks like the extension is being sent from<br />the hub to the node through the network. Is this the most efficient way to<br />proceed?<br /><br />Can i not just open the node chrome browser with the extension installed?<br />May be the following steps might make it more clear.<br /><br />1. Manually open chrome browser, drag and drop the extension in chrome.<br />2. It asks if i want to Install it, i go ahead and install this.<br />3. Next time I go to the specific URL manually that needs this extension<br />to run, it runs fine without any pop-ups.<br />4. Start my code to run from the hub, (without the path to use the<br />extension). It asks me to install the extension every single time.<br /><br />I understand that it is opening a completely new copy of chrome every<br />single time, but is there no other way this can be handeled on the node<br />instead of sending the extension over the hub? just wondering....<br /><br />But thanks for the code above ... its working for my setup as is.<br /><div class="ql ql2"><span class="qc_wrote">On Tuesday, June 12, 2012 2:21:09 PM UTC-7, Jim Evans wrote:</span><br /><br />What happens when you use the ChromeOptions class? For example:<br /><br />ChromeOptions options = new ChromeOptions();<br /><br />options.AddExtension(@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;);<br />options.AddArgument(&quot;--start-maximized&quot;);<br />options.BinaryLocation =<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;;<br /><br />// For a local ChromeDriver, use this:<br />IWebDriver driver = new ChromeDriver(options);<br /><br />// For using RemoteWebDriver, use (changing &quot;<br /><a href="http://your/remote/server:port/wd/hub"" rel="nofollow">http://your/remote/server:port/wd/hub&quot;</a> to point to your remote server):<br />// DesiredCapabilities capabilities = DesiredCapabilities.Chrome();<br />// capabilities.SetCapability(ChromeOptions.Capability, options);<br />// RemoteWebDriver driver = new RemoteWebDriver(new Uri(&quot;<br /><a href="http://your/remote/server:port/wd/hub")," rel="nofollow">http://your/remote/server:port/wd/hub&quot;),</a> capabilities);<br /><div class="ql ql3"><span class="qc_wrote">On Tuesday, June 12, 2012 4:20:56 PM UTC-4, Newbee wrote:</span><br /><br />This my set up:<br /><br />I am running Selenium 2 grid, from my hub i am starting a chrome driver<br />and am trying to pass the chrome extension i want to open the browser with<br />on the node using the following code:<br />object[] _chromecap = { &quot;--start-maximized&quot;,<br />@&quot;--load-extension= WebCapture.crx&quot; };<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br /><br /><br />But when i run this i get an error on the node &quot;Manifest file not<br />found&quot;.<br /><br />I then try the following:<br /><br />object[] _chromecap = { &quot;--start-maximized&quot;};<br />object [] _chromeext = {<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;};<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br />_capabilities.SetCapability(&quot;chrome.switches&quot;,<br />_chromecap.ToList());<br /><br />but now i get an error that &quot;Failed to base64 decode extension&quot;. I am<br />at the end of my wits rt now.. any assistance is welcome..<br /><br />Thanks <br /><span class="qc_wrote">On Tuesday, June 12, 2012 4:20:56 PM UTC-4, Newbee wrote:</span><br /><br />This my set up:<br /><br />I am running Selenium 2 grid, from my hub i am starting a chrome driver<br />and am trying to pass the chrome extension i want to open the browser with<br />on the node using the following code:<br />object[] _chromecap = { &quot;--start-maximized&quot;,<br />@&quot;--load-extension= WebCapture.crx&quot; };<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br /><br /><br />But when i run this i get an error on the node &quot;Manifest file not<br />found&quot;.<br /><br />I then try the following:<br /><br />object[] _chromecap = { &quot;--start-maximized&quot;};<br />object [] _chromeext = {<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;};<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br />_capabilities.SetCapability(&quot;chrome.switches&quot;,<br />_chromecap.ToList());<br /><br />but now i get an error that &quot;Failed to base64 decode extension&quot;. I am<br />at the end of my wits rt now.. any assistance is welcome..<br /><br />Thanks</div></div></div></div>--<br />You received this message because you are subscribed to the Google Groups &quot;Selenium Users&quot; group.<br />To view this discussion on the web visit <a href="https://groups.google.com/d/msg/selenium-users/-/FCNieye9OuIJ." rel="nofollow">https://groups.google.com/d/msg/selenium-users/-/FCNieye9OuIJ.</a><br />To post to this group, send email to selenium-users@googlegroups.com.<br />To unsubscribe from this group, send email to selenium-users+unsubscribe@googlegroups.com.<br />For more options, visit this group at <a href="http://groups.google.com/group/selenium-users?hl=en-US." rel="nofollow">http://groups.google.com/group/selenium-users?hl=en-US.</a></div>				<div style="margin-top:1em">
+					<a href="mailto:selenium-users%40googlegroups.com?In-Reply-To=%3C6c47137b-3b0e-4ff3-ac2c-2de520d9faf6%40googlegroups.com%3E&Subject=%5Bselenium-users%5D%20Re%3A%20How%20to%20use%20chrome%20extension%20when%20opening%20chrome%20browser%20on%20a%20node.">reply</a> <span class="inactive">|</span> <a href="/p/gg/selenium-users/126ccj541z/how-to-use-chrome-extension-when-opening-chrome-browser-on-a-node">permalink</a>
+				</div>
+			</div>
+
+		</div><!-- so.article -->
+		<div style="clear:both"></div>
+		</li>
+
+		
+		<li id="20120612ylks744j76irardi7cuktndfou_li" class="responses">
+		<div itemscope itemtype="http://schema.org/Article">
+			<a id="20120612ylks744j76irardi7cuktndfou" name="126crbajzw" title="20120612ylks744j76irardi7cuktndfou,,"></a>
+			<meta itemprop="name" content=""/>
+
+			<table border="0" id="20120612ylks744j76irardi7cuktndfou_thinhead" class="tr_head_thin rc_ctl_thin hl_y" style="display:none"><tr><td id="20120612ylks744j76irardi7cuktndfou_th_indent" class="indent1 indentd4" style="width:20px;margin:0;padding:0 0 0 64px"><img class="av_sm avatar tr_avatar" src="/avatar/KphRHJwsfTrZACX6MBmp2c/20" alt="Newbee" />
+				</td><td class="tr_head_content tr_head_thin_content tr_head_content_right" style="width:100%;overflow:hidden"><div class="tr_head_thin_content">
+				<strong>Newbee</strong> <span itemprop="articleBody">Also, I have tried to manually install the extension on the Chrome node, but still selenium 2 remote webdriver opens chrome without this extension. -- You received this message because you are subscribed to the Google Groups &quot;Selenium Users&quot; group. To view this discussion on the web visit https://groups.google.com/d/msg/selenium-users/-/NXmo2MXY34IJ. To post to this group, send email to selenium-users@googlegroups.com. To unsubscribe from this group, send email to</span></div>
+			</td><td><div style="width:20px"><div title="Original poster / discussion starter" class="u_badge badge_tn badge_tn_1_infoop"></div></div></td></tr></table>
+
+			<table id="20120612ylks744j76irardi7cuktndfou_fullhead" class="rbody tr_head_full"><tr><td id="20120612ylks744j76irardi7cuktndfou_fh_indent" class="indent1 indentd4" style="width:20px;margin:0;padding:0 0 0 64px"><a href="/user/Newbee/KphRHJwsfTrZACX6MBmp2c"><img class="av_sm avatar tr_avatar" src="/avatar/KphRHJwsfTrZACX6MBmp2c/20" alt="Newbee" /></a>				</td><td class="tr_head_content tr_head_full_content_user">
+				<strong><span itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="url" content="/user/Newbee/KphRHJwsfTrZACX6MBmp2c"/><a class="tr_head_user" href="/user/Newbee/KphRHJwsfTrZACX6MBmp2c"><span class="hl_y" itemprop="name">Newbee</span></a></span></strong> </td>
+				<td id="20120612ylks744j76irardi7cuktndfou_fullhead_ctl" class="tr_head_content tr_head_content_right rc_ctl_full" style='padding-top:2px'> at <span class="dt_y4 relativetime">Jun 12, 2012 at 11:04 pm</span>
+			</td><td>
+			<a href="#top">&#8679;</a></td><td style="margin-top:0px"><a href="#20120612ylks744j76irardi7cuktndfou"><img src="/cc/img/nav/icon_anchor_16x16.png" /></a>
+			</td><td><div style="width:20px"><div title="Original poster / discussion starter" class="u_badge badge_tn badge_tn_1_infoop"></div></div></td></tr></table>
+
+			<div id="20120612ylks744j76irardi7cuktndfou_content" class="rbody m_body indent2 indentd4 tr_content hl_y" style="padding-left:94px;">
+				Also, I have tried to manually install the extension on the Chrome node,<br />but still selenium 2 remote webdriver opens chrome without this extension.<br /><a id="qc_20120612ylks744j76irardi7cuktndfou_z__ctl" class="qc_ctl" href="#"></a><div id="qc_20120612ylks744j76irardi7cuktndfou_z" class="qc_cnt"><div class="ql ql0"><span class="qc_wrote">On Tuesday, June 12, 2012 4:00:30 PM UTC-7, Newbee wrote:</span><br /><br />So i was going through the chrome driver WIKI... below is the way i can<br />set the profile ...but when i try this i chrome crashes.<br /><br />__________________WIKI<br />CODE____________________________________________________________________<br />Or to load with a specific profile (note that the default profile<br />directories can be found here):<br /><br />DesiredCapabilities capabilities = DesiredCapabilities.chrome();<br />capabilities.setCapability(&quot;chrome.switches&quot;,<br />Arrays.asList(&quot;--user-data-dir=/path/to/profile/directory&quot;));<br />WebDriver driver = new ChromeDriver(capabilities);<br /><br />__________________________________________________________________________________________________<br /><br />________________________________My<br />code__________________________________________________________<br /><br />_chroptions.AddArguments(@&quot;--user-data-dir=<br />C:\Users\Administrator\AppData\Local\Google\Chrome\User Data\Default&quot;);<br /><br />_____________________________________________________________________________________________________<br /><div class="ql ql1"><span class="qc_wrote">On Tuesday, June 12, 2012 2:55:33 PM UTC-7, Jim Evans wrote:</span><br /><br />Efficient or not, it&#39;s your only option at present. The Chrome driver<br />doesn&#39;t allow you to specify a custom profile when you launch Chrome[1].<br />Rather, it creates an empty profile for each instance it&#39;s launching. That<br />means that the extension has to be installed in the profile before Chrome<br />is launched, and since hub and node are (and ought to be) decoupled from<br />one another and have no knowledge of each others&#39; file systems, the only<br />way to get that extension across to the node is to send it across the wire.<br /><br />--Jim<br /><br />[1] Documented in the project wiki at<br /><a href="http://code.google.com/p/wiki/ChromeDriver" rel="nofollow">http://code.google.com/p/wiki/ChromeDriver</a><br /><div class="ql ql2"><span class="qc_wrote">On Tuesday, June 12, 2012 5:34:07 PM UTC-4, Newbee wrote:</span><br /><br />Jim that worked!! ... but it looks like the extension is being sent from<br />the hub to the node through the network. Is this the most efficient way to<br />proceed?<br /><br />Can i not just open the node chrome browser with the extension<br />installed? May be the following steps might make it more clear.<br /><br />1. Manually open chrome browser, drag and drop the extension in chrome.<br />2. It asks if i want to Install it, i go ahead and install this.<br />3. Next time I go to the specific URL manually that needs this extension<br />to run, it runs fine without any pop-ups.<br />4. Start my code to run from the hub, (without the path to use the<br />extension). It asks me to install the extension every single time.<br /><br />I understand that it is opening a completely new copy of chrome every<br />single time, but is there no other way this can be handeled on the node<br />instead of sending the extension over the hub? just wondering....<br /><br />But thanks for the code above ... its working for my setup as is.<br /><div class="ql ql3"><span class="qc_wrote">On Tuesday, June 12, 2012 2:21:09 PM UTC-7, Jim Evans wrote:</span><br /><br />What happens when you use the ChromeOptions class? For example:<br /><br />ChromeOptions options = new ChromeOptions();<br /><br />options.AddExtension(@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;);<br />options.AddArgument(&quot;--start-maximized&quot;);<br />options.BinaryLocation =<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;;<br /><br />// For a local ChromeDriver, use this:<br />IWebDriver driver = new ChromeDriver(options);<br /><br />// For using RemoteWebDriver, use (changing &quot;<br /><a href="http://your/remote/server:port/wd/hub"" rel="nofollow">http://your/remote/server:port/wd/hub&quot;</a> to point to your remote server):<br />// DesiredCapabilities capabilities = DesiredCapabilities.Chrome();<br />// capabilities.SetCapability(ChromeOptions.Capability, options);<br />// RemoteWebDriver driver = new RemoteWebDriver(new Uri(&quot;<br /><a href="http://your/remote/server:port/wd/hub")," rel="nofollow">http://your/remote/server:port/wd/hub&quot;),</a> capabilities);<br /><div class="ql ql4"><span class="qc_wrote">On Tuesday, June 12, 2012 4:20:56 PM UTC-4, Newbee wrote:</span><br /><br />This my set up:<br /><br />I am running Selenium 2 grid, from my hub i am starting a chrome<br />driver and am trying to pass the chrome extension i want to open the<br />browser with on the node using the following code:<br />object[] _chromecap = { &quot;--start-maximized&quot;,<br />@&quot;--load-extension= WebCapture.crx&quot; };<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br /><br /><br />But when i run this i get an error on the node &quot;Manifest file not<br />found&quot;.<br /><br />I then try the following:<br /><br />object[] _chromecap = { &quot;--start-maximized&quot;};<br />object [] _chromeext = {<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;};<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br />_capabilities.SetCapability(&quot;chrome.switches&quot;,<br />_chromecap.ToList());<br /><br />but now i get an error that &quot;Failed to base64 decode extension&quot;. I am<br />at the end of my wits rt now.. any assistance is welcome..<br /><br />Thanks <br /><span class="qc_wrote">On Tuesday, June 12, 2012 4:20:56 PM UTC-4, Newbee wrote:</span><br /><br />This my set up:<br /><br />I am running Selenium 2 grid, from my hub i am starting a chrome<br />driver and am trying to pass the chrome extension i want to open the<br />browser with on the node using the following code:<br />object[] _chromecap = { &quot;--start-maximized&quot;,<br />@&quot;--load-extension= WebCapture.crx&quot; };<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br /><br /><br />But when i run this i get an error on the node &quot;Manifest file not<br />found&quot;.<br /><br />I then try the following:<br /><br />object[] _chromecap = { &quot;--start-maximized&quot;};<br />object [] _chromeext = {<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;};<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br />_capabilities.SetCapability(&quot;chrome.switches&quot;,<br />_chromecap.ToList());<br /><br />but now i get an error that &quot;Failed to base64 decode extension&quot;. I am<br />at the end of my wits rt now.. any assistance is welcome..<br /><br />Thanks</div></div></div></div></div>--<br />You received this message because you are subscribed to the Google Groups &quot;Selenium Users&quot; group.<br />To view this discussion on the web visit <a href="https://groups.google.com/d/msg/selenium-users/-/NXmo2MXY34IJ." rel="nofollow">https://groups.google.com/d/msg/selenium-users/-/NXmo2MXY34IJ.</a><br />To post to this group, send email to selenium-users@googlegroups.com.<br />To unsubscribe from this group, send email to selenium-users+unsubscribe@googlegroups.com.<br />For more options, visit this group at <a href="http://groups.google.com/group/selenium-users?hl=en-US." rel="nofollow">http://groups.google.com/group/selenium-users?hl=en-US.</a></div>				<div style="margin-top:1em">
+					<a href="mailto:selenium-users%40googlegroups.com?In-Reply-To=%3C5cc76e9d-7da5-4793-9e44-e48078fae69a%40googlegroups.com%3E&Subject=%5Bselenium-users%5D%20Re%3A%20How%20to%20use%20chrome%20extension%20when%20opening%20chrome%20browser%20on%20a%20node.">reply</a> <span class="inactive">|</span> <a href="/p/gg/selenium-users/126crbajzw/how-to-use-chrome-extension-when-opening-chrome-browser-on-a-node">permalink</a>
+				</div>
+			</div>
+
+		</div><!-- so.article -->
+		<div style="clear:both"></div>
+		</li>
+
+		
+		<li id="20120612dxlqtfoojtwtsrvq7wwkpn7tc4_li" class="responses">
+		<div itemscope itemtype="http://schema.org/Article">
+			<a id="20120612dxlqtfoojtwtsrvq7wwkpn7tc4" name="126c3qbgk5" title="20120612dxlqtfoojtwtsrvq7wwkpn7tc4,,"></a>
+			<meta itemprop="name" content=""/>
+
+			<table border="0" id="20120612dxlqtfoojtwtsrvq7wwkpn7tc4_thinhead" class="tr_head_thin rc_ctl_thin hl_y" style="display:none"><tr><td id="20120612dxlqtfoojtwtsrvq7wwkpn7tc4_th_indent" class="indent1 indentd3" style="width:20px;margin:0;padding:0 0 0 48px"><img class="av_sm avatar tr_avatar" src="/avatar/KphRHJwsfTrZACX6MBmp2c/20" alt="Newbee" />
+				</td><td class="tr_head_content tr_head_thin_content tr_head_content_right" style="width:100%;overflow:hidden"><div class="tr_head_thin_content">
+				<strong>Newbee</strong> <span itemprop="articleBody">Hello Jim.. i have created a new thread for this question since i think the primary question that i had here was answered. If you can I would appreciate your input on this thread: https://groups.google.com/forum/?fromgroups#!topic/selenium-users/ChpsdZ_I7g0 -- You received this message because you are subscribed to the Google Groups &quot;Selenium Users&quot; group. To view this discussion on the web visit https://groups.google.com/d/msg/selenium-users/-/fFrEnlu4AJgJ. To post to this group, send email to</span></div>
+			</td><td><div style="width:20px"><div title="Original poster / discussion starter" class="u_badge badge_tn badge_tn_1_infoop"></div></div></td></tr></table>
+
+			<table id="20120612dxlqtfoojtwtsrvq7wwkpn7tc4_fullhead" class="rbody tr_head_full"><tr><td id="20120612dxlqtfoojtwtsrvq7wwkpn7tc4_fh_indent" class="indent1 indentd3" style="width:20px;margin:0;padding:0 0 0 48px"><a href="/user/Newbee/KphRHJwsfTrZACX6MBmp2c"><img class="av_sm avatar tr_avatar" src="/avatar/KphRHJwsfTrZACX6MBmp2c/20" alt="Newbee" /></a>				</td><td class="tr_head_content tr_head_full_content_user">
+				<strong><span itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="url" content="/user/Newbee/KphRHJwsfTrZACX6MBmp2c"/><a class="tr_head_user" href="/user/Newbee/KphRHJwsfTrZACX6MBmp2c"><span class="hl_y" itemprop="name">Newbee</span></a></span></strong> </td>
+				<td id="20120612dxlqtfoojtwtsrvq7wwkpn7tc4_fullhead_ctl" class="tr_head_content tr_head_content_right rc_ctl_full" style='padding-top:2px'> at <span class="dt_y4 relativetime">Jun 12, 2012 at 11:47 pm</span>
+			</td><td>
+			<a href="#top">&#8679;</a></td><td style="margin-top:0px"><a href="#20120612dxlqtfoojtwtsrvq7wwkpn7tc4"><img src="/cc/img/nav/icon_anchor_16x16.png" /></a>
+			</td><td><div style="width:20px"><div title="Original poster / discussion starter" class="u_badge badge_tn badge_tn_1_infoop"></div></div></td></tr></table>
+
+			<div id="20120612dxlqtfoojtwtsrvq7wwkpn7tc4_content" class="rbody m_body indent2 indentd3 tr_content hl_y" style="padding-left:78px;">
+				Hello Jim.. i have created a new thread for this question since i think the<br />primary question that i had here was answered. If you can I would<br />appreciate your input on this thread:<br /><br /><a href="https://groups.google.com/forum/?fromgroups#!topic/selenium-users/ChpsdZ_I7g0" rel="nofollow">https://groups.google.com/forum/?fromgroups#!topic/selenium-users/ChpsdZ_I7g0</a><br /><a id="qc_20120612dxlqtfoojtwtsrvq7wwkpn7tc4_z__ctl" class="qc_ctl" href="#"></a><div id="qc_20120612dxlqtfoojtwtsrvq7wwkpn7tc4_z" class="qc_cnt"><div class="ql ql0"><span class="qc_wrote">On Tuesday, June 12, 2012 2:55:33 PM UTC-7, Jim Evans wrote:</span><br /><br />Efficient or not, it&#39;s your only option at present. The Chrome driver<br />doesn&#39;t allow you to specify a custom profile when you launch Chrome[1].<br />Rather, it creates an empty profile for each instance it&#39;s launching. That<br />means that the extension has to be installed in the profile before Chrome<br />is launched, and since hub and node are (and ought to be) decoupled from<br />one another and have no knowledge of each others&#39; file systems, the only<br />way to get that extension across to the node is to send it across the wire.<br /><br />--Jim<br /><br />[1] Documented in the project wiki at<br /><a href="http://code.google.com/p/wiki/ChromeDriver" rel="nofollow">http://code.google.com/p/wiki/ChromeDriver</a><br /><div class="ql ql1"><span class="qc_wrote">On Tuesday, June 12, 2012 5:34:07 PM UTC-4, Newbee wrote:</span><br /><br />Jim that worked!! ... but it looks like the extension is being sent from<br />the hub to the node through the network. Is this the most efficient way to<br />proceed?<br /><br />Can i not just open the node chrome browser with the extension installed?<br />May be the following steps might make it more clear.<br /><br />1. Manually open chrome browser, drag and drop the extension in chrome.<br />2. It asks if i want to Install it, i go ahead and install this.<br />3. Next time I go to the specific URL manually that needs this extension<br />to run, it runs fine without any pop-ups.<br />4. Start my code to run from the hub, (without the path to use the<br />extension). It asks me to install the extension every single time.<br /><br />I understand that it is opening a completely new copy of chrome every<br />single time, but is there no other way this can be handeled on the node<br />instead of sending the extension over the hub? just wondering....<br /><br />But thanks for the code above ... its working for my setup as is.<br /><div class="ql ql2"><span class="qc_wrote">On Tuesday, June 12, 2012 2:21:09 PM UTC-7, Jim Evans wrote:</span><br /><br />What happens when you use the ChromeOptions class? For example:<br /><br />ChromeOptions options = new ChromeOptions();<br /><br />options.AddExtension(@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;);<br />options.AddArgument(&quot;--start-maximized&quot;);<br />options.BinaryLocation =<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;;<br /><br />// For a local ChromeDriver, use this:<br />IWebDriver driver = new ChromeDriver(options);<br /><br />// For using RemoteWebDriver, use (changing &quot;<br /><a href="http://your/remote/server:port/wd/hub"" rel="nofollow">http://your/remote/server:port/wd/hub&quot;</a> to point to your remote server):<br />// DesiredCapabilities capabilities = DesiredCapabilities.Chrome();<br />// capabilities.SetCapability(ChromeOptions.Capability, options);<br />// RemoteWebDriver driver = new RemoteWebDriver(new Uri(&quot;<br /><a href="http://your/remote/server:port/wd/hub")," rel="nofollow">http://your/remote/server:port/wd/hub&quot;),</a> capabilities);<br /><div class="ql ql3"><span class="qc_wrote">On Tuesday, June 12, 2012 4:20:56 PM UTC-4, Newbee wrote:</span><br /><br />This my set up:<br /><br />I am running Selenium 2 grid, from my hub i am starting a chrome driver<br />and am trying to pass the chrome extension i want to open the browser with<br />on the node using the following code:<br />object[] _chromecap = { &quot;--start-maximized&quot;,<br />@&quot;--load-extension= WebCapture.crx&quot; };<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br /><br /><br />But when i run this i get an error on the node &quot;Manifest file not<br />found&quot;.<br /><br />I then try the following:<br /><br />object[] _chromecap = { &quot;--start-maximized&quot;};<br />object [] _chromeext = {<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;};<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br />_capabilities.SetCapability(&quot;chrome.switches&quot;,<br />_chromecap.ToList());<br /><br />but now i get an error that &quot;Failed to base64 decode extension&quot;. I am<br />at the end of my wits rt now.. any assistance is welcome..<br /><br />Thanks <br /><span class="qc_wrote">On Tuesday, June 12, 2012 4:20:56 PM UTC-4, Newbee wrote:</span><br /><br />This my set up:<br /><br />I am running Selenium 2 grid, from my hub i am starting a chrome driver<br />and am trying to pass the chrome extension i want to open the browser with<br />on the node using the following code:<br />object[] _chromecap = { &quot;--start-maximized&quot;,<br />@&quot;--load-extension= WebCapture.crx&quot; };<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br /><br /><br />But when i run this i get an error on the node &quot;Manifest file not<br />found&quot;.<br /><br />I then try the following:<br /><br />object[] _chromecap = { &quot;--start-maximized&quot;};<br />object [] _chromeext = {<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;};<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br />_capabilities.SetCapability(&quot;chrome.switches&quot;,<br />_chromecap.ToList());<br /><br />but now i get an error that &quot;Failed to base64 decode extension&quot;. I am<br />at the end of my wits rt now.. any assistance is welcome..<br /><br />Thanks</div></div></div></div>--<br />You received this message because you are subscribed to the Google Groups &quot;Selenium Users&quot; group.<br />To view this discussion on the web visit <a href="https://groups.google.com/d/msg/selenium-users/-/fFrEnlu4AJgJ." rel="nofollow">https://groups.google.com/d/msg/selenium-users/-/fFrEnlu4AJgJ.</a><br />To post to this group, send email to selenium-users@googlegroups.com.<br />To unsubscribe from this group, send email to selenium-users+unsubscribe@googlegroups.com.<br />For more options, visit this group at <a href="http://groups.google.com/group/selenium-users?hl=en-US." rel="nofollow">http://groups.google.com/group/selenium-users?hl=en-US.</a></div>				<div style="margin-top:1em">
+					<a href="mailto:selenium-users%40googlegroups.com?In-Reply-To=%3C41ddc91d-6ce9-4545-973c-ad1cfbbfd709%40googlegroups.com%3E&Subject=%5Bselenium-users%5D%20Re%3A%20How%20to%20use%20chrome%20extension%20when%20opening%20chrome%20browser%20on%20a%20node.">reply</a> <span class="inactive">|</span> <a href="/p/gg/selenium-users/126c3qbgk5/how-to-use-chrome-extension-when-opening-chrome-browser-on-a-node">permalink</a>
+				</div>
+			</div>
+
+		</div><!-- so.article -->
+		<div style="clear:both"></div>
+		</li>
+
+		
+		<li id="20131220dvfwgi6h36arqqnt34pb5m4rcq_li" class="responses">
+		<div itemscope itemtype="http://schema.org/Article">
+			<a id="20131220dvfwgi6h36arqqnt34pb5m4rcq" name="13cm3n5p68" title="20131220dvfwgi6h36arqqnt34pb5m4rcq,,"></a>
+			<meta itemprop="name" content=""/>
+
+			<table border="0" id="20131220dvfwgi6h36arqqnt34pb5m4rcq_thinhead" class="tr_head_thin rc_ctl_thin hl_y" style="display:none"><tr><td id="20131220dvfwgi6h36arqqnt34pb5m4rcq_th_indent" class="indent1 indentd1" style="width:20px;margin:0;padding:0 0 0 16px"><img class="av_sm avatar tr_avatar" src="/avatar/DGQzKQ1AtzGBca5NRJE3kX/20" alt="Babette Wagner" />
+				</td><td class="tr_head_content tr_head_thin_content tr_head_content_right" style="width:100%;overflow:hidden"><div class="tr_head_thin_content">
+				<strong>Babette Wagner</strong> <span itemprop="articleBody">I have gone the same way, but in the path mentioned for the extension there is no .crx, just a .dll My Steps: - downloaded the desired .crx - dropped it on plugins page and answerd &#39;yes&#39; to install, plugin is now available in running version of chrome chrome://plugins/ detail view shows me &quot;C:/Users/bw/AppData/Local/Google/Chrome/User Data/Default/Extensions/jpjpnpmbddbjkfaccnmhnkdgjideieim/1.0.9738_0/WINNT_x86-msvc/npGwtDevPlugin.dll&quot; My Code: ChromeOptions chromeOptions = new</span></div>
+			</td><td></td></tr></table>
+
+			<table id="20131220dvfwgi6h36arqqnt34pb5m4rcq_fullhead" class="rbody tr_head_full"><tr><td id="20131220dvfwgi6h36arqqnt34pb5m4rcq_fh_indent" class="indent1 indentd1" style="width:20px;margin:0;padding:0 0 0 16px"><a href="/user/Babette-Wagner/DGQzKQ1AtzGBca5NRJE3kX"><img class="av_sm avatar tr_avatar" src="/avatar/DGQzKQ1AtzGBca5NRJE3kX/20" alt="Babette Wagner" /></a>				</td><td class="tr_head_content tr_head_full_content_user">
+				<strong><span itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="url" content="/user/Babette-Wagner/DGQzKQ1AtzGBca5NRJE3kX"/><a class="tr_head_user" href="/user/Babette-Wagner/DGQzKQ1AtzGBca5NRJE3kX"><span class="hl_y" itemprop="name">Babette Wagner</span></a></span></strong> </td>
+				<td id="20131220dvfwgi6h36arqqnt34pb5m4rcq_fullhead_ctl" class="tr_head_content tr_head_content_right rc_ctl_full" style='padding-top:2px'> at <span class="dt_y4 relativetime">Dec 20, 2013 at 8:34 am</span>
+			</td><td>
+			<a href="#top">&#8679;</a></td><td style="margin-top:0px"><a href="#20131220dvfwgi6h36arqqnt34pb5m4rcq"><img src="/cc/img/nav/icon_anchor_16x16.png" /></a>
+			</td><td></td></tr></table>
+
+			<div id="20131220dvfwgi6h36arqqnt34pb5m4rcq_content" class="rbody m_body indent2 indentd1 tr_content hl_y" style="padding-left:46px;">
+				I have gone the same way, but in the path mentioned for the extension there<br />is no .crx, just a .dll<br /><br />My Steps:<br />- downloaded the desired .crx<br />- dropped it on plugins page and answerd &#39;yes&#39; to install, plugin is now<br />available in running version of chrome<br /><br />chrome://plugins/ detail view shows me<br />&quot;C:/Users/bw/AppData/Local/Google/Chrome/User<br />Data/Default/Extensions/jpjpnpmbddbjkfaccnmhnkdgjideieim/1.0.9738_0/WINNT_x86-msvc/npGwtDevPlugin.dll&quot;<br /><br />My Code:<br />ChromeOptions chromeOptions = new ChromeOptions();<br />chromeOptions.addExtensions(new File(<br />&quot;C:/Users/bw/AppData/Local/Google/Chrome/User<br />Data/Default/Extensions/jpjpnpmbddbjkfaccnmhnkdgjideieim/1.0.9738_0/WINNT_x86-msvc/gwt-dev-plugin.crx&quot;));<br />chromeOptions.setBinary(new File(&quot;C:/Program Files<br />(x86)/Google/Chrome/Application/chrome.exe&quot;));<br /><br />DesiredCapabilities capabilities = DesiredCapabilities.chrome();<br />capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);<br />webDriver = new RemoteWebDriver(service.getUrl(), capabilities);<br /><br />If I run the code I get:<br />org.openqa.selenium.WebDriverException: unknown error: cannot process<br />extension #1<br />from unknown error: cannot unzip<br /><br />If I place the .crx in the same directory and use it in my code I get the<br />following error message<br /><br /><<a href="https://lh3.googleusercontent.com/-9pSbw8Hc_es/UrQArX1FAgI/AAAAAAAAAiY/CWTwDSi_JvY/s1600/error.gif" rel="nofollow">https://lh3.googleusercontent.com/-9pSbw8Hc_es/UrQArX1FAgI/AAAAAAAAAiY/CWTwDSi_JvY/s1600/error.gif</a>><br /><br /><br /><br /><br /><br />Am Dienstag, 12. Juni 2012 23:21:09 UTC+2 schrieb Jim Evans:<br /><a id="qc_20131220dvfwgi6h36arqqnt34pb5m4rcq_z__ctl" class="qc_ctl" href="#"></a><div id="qc_20131220dvfwgi6h36arqqnt34pb5m4rcq_z" class="qc_cnt"><div class="ql ql0">What happens when you use the ChromeOptions class? For example:<br /><br />ChromeOptions options = new ChromeOptions();<br /><br />options.AddExtension(@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;);<br />options.AddArgument(&quot;--start-maximized&quot;);<br />options.BinaryLocation =<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;;<br /><br />// For a local ChromeDriver, use this:<br />IWebDriver driver = new ChromeDriver(options);<br /><br />// For using RemoteWebDriver, use (changing &quot;<br /><a href="http://your/remote/server:port/wd/hub"" rel="nofollow">http://your/remote/server:port/wd/hub&quot;</a> to point to your remote server):<br />// DesiredCapabilities capabilities = DesiredCapabilities.Chrome();<br />// capabilities.SetCapability(ChromeOptions.Capability, options);<br />// RemoteWebDriver driver = new RemoteWebDriver(new Uri(&quot;<br /><a href="http://your/remote/server:port/wd/hub")," rel="nofollow">http://your/remote/server:port/wd/hub&quot;),</a> capabilities);<br /><div class="ql ql1"><span class="qc_wrote">On Tuesday, June 12, 2012 4:20:56 PM UTC-4, Newbee wrote:</span><br /><br />This my set up:<br /><br />I am running Selenium 2 grid, from my hub i am starting a chrome driver<br />and am trying to pass the chrome extension i want to open the browser with<br />on the node using the following code:<br />object[] _chromecap = { &quot;--start-maximized&quot;,<br />@&quot;--load-extension= WebCapture.crx&quot; };<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br /><br /><br />But when i run this i get an error on the node &quot;Manifest file not found&quot;.<br /><br />I then try the following:<br /><br />object[] _chromecap = { &quot;--start-maximized&quot;};<br />object [] _chromeext = {<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;};<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br />_capabilities.SetCapability(&quot;chrome.switches&quot;,<br />_chromecap.ToList());<br /><br />but now i get an error that &quot;Failed to base64 decode extension&quot;. I am at<br />the end of my wits rt now.. any assistance is welcome..<br /><br />Thanks <br /><span class="qc_wrote">On Tuesday, June 12, 2012 4:20:56 PM UTC-4, Newbee wrote:</span><br /><br />This my set up:<br /><br />I am running Selenium 2 grid, from my hub i am starting a chrome driver<br />and am trying to pass the chrome extension i want to open the browser with<br />on the node using the following code:<br />object[] _chromecap = { &quot;--start-maximized&quot;,<br />@&quot;--load-extension= WebCapture.crx&quot; };<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br /><br /><br />But when i run this i get an error on the node &quot;Manifest file not found&quot;.<br /><br />I then try the following:<br /><br />object[] _chromecap = { &quot;--start-maximized&quot;};<br />object [] _chromeext = {<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\19.0.1084.56\Extensions\WebCapture.crx&quot;};<br />_capabilities = DesiredCapabilities.Chrome();<br />_capabilities.SetCapability(&quot;chrome.binary&quot;,<br />@&quot;C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe&quot;);<br />_capabilities.SetCapability(&quot;chrome.extensions&quot;,<br />_chromeext.ToList());<br />_capabilities.SetCapability(&quot;chrome.switches&quot;,<br />_chromecap.ToList());<br /><br />but now i get an error that &quot;Failed to base64 decode extension&quot;. I am at<br />the end of my wits rt now.. any assistance is welcome..<br /><br />Thanks</div></div>--<br />You received this message because you are subscribed to the Google Groups &quot;Selenium Users&quot; group.<br />To unsubscribe from this group and stop receiving emails from it, send an email to selenium-users+unsubscribe@googlegroups.com.<br />To post to this group, send email to selenium-users@googlegroups.com.<br />To view this discussion on the web visit <a href="https://groups.google.com/d/msgid/selenium-users/c580b075-bbeb-4929-835c-1679bb975174%40googlegroups.com." rel="nofollow">https://groups.google.com/d/msgid/selenium-users/c580b075-bbeb-4929-835c-1679bb975174%40googlegroups.com.</a><br />For more options, visit <a href="https://groups.google.com/groups/opt_out." rel="nofollow">https://groups.google.com/groups/opt_out.</a></div>				<div style="margin-top:1em">
+					<a href="mailto:selenium-users%40googlegroups.com?In-Reply-To=%3Cc580b075-bbeb-4929-835c-1679bb975174%40googlegroups.com%3E&Subject=%5Bselenium-users%5D%20Re%3A%20How%20to%20use%20chrome%20extension%20when%20opening%20chrome%20browser%20on%20a%20node.">reply</a> <span class="inactive">|</span> <a href="/p/gg/selenium-users/13cm3n5p68/how-to-use-chrome-extension-when-opening-chrome-browser-on-a-node">permalink</a>
+				</div>
+			</div>
+
+		</div><!-- so.article -->
+		<div style="clear:both"></div>
+		</li>
+
+		</ul><div style="clear:both"></div><div style="clear:both;height:1em"></div><div><h2>Related Discussions</h2></div><div><div id="related_discussions" style="padding-bottom:1em"><ul class="bullet">				<li style="margin-bottom:0.3em"><span><a class="hl_y" style="font-weight:bold" href="/t/gg/selenium-users/13cb4x7yfa/testng-total-tests-run-4-failures-0-skips-4-testng-configuration-failures-2-skips-0-error-in-jenkins" title="Hi, If your Jenkins is running as Windows Service, you will not see the browser opening. If you want to do that, run Jenkins as servlet container. -- You received this message because you are ...">[selenium-users] Re: [testng] Total tests run: 4, Failures: 0, Skips: 4 [testng] Configuration Failures: 2, Skips: 0 : Error in Jenkins</a></span></li>
+							<li style="margin-bottom:0.3em"><span><a class="hl_y" style="font-weight:bold" href="/t/gg/selenium-users/13bep3ndrt/selenium-version" title="Hi Everyone, Can anyone please explain me the below two doubts? #1. What are the browsers Selenium supports? Does Selenium support Safari browser? If yes how to open a safari browser and opening ...">[selenium-users] Selenium Version.</a></span></li>
+							<li style="margin-bottom:0.3em"><span><a class="hl_y" style="font-weight:bold" href="/t/gg/selenium-users/13aq7g44c2/ruby-need-help-in-opening-ie-browser" title="Hi Experts, I need a sample code in Ruby through which I can open IE browser in WebDriver. So far I am getting this error ...">[selenium-users] Ruby: Need help in opening IE browser</a></span></li>
+							<li style="margin-bottom:0.3em"><span><a class="hl_y" style="font-weight:bold" href="/t/gg/selenium-users/13afc70dz3/getting-webdriverexception-in-firefox-browser" title="Hi All, I am trying to launch a url with Firefox browser, but after opening the browser window i am getting an Exception: Exception in thread &quot;main&quot; org.openqa.selenium.WebDriverException ...">[selenium-users] Getting WebDriverException in Firefox Browser</a></span></li>
+							<li style="margin-bottom:0.3em"><span><a class="hl_y" style="font-weight:bold" href="/t/gg/selenium-users/13a9992ey6/upload-file-issues-in-internet-explorer-9" title="Hi All, I am using Selenium RC 2.32.0 for running my automation scripts on Internet explorer and firefox. Am finding issues in opening the File Browser Window by clicking on browse button on the UI ...">[selenium-users] Upload File issues in Internet explorer 9</a></span></li>
+							<li style="margin-bottom:0.3em"><span><a class="hl_y" style="font-weight:bold" href="/t/gg/selenium-users/138ttnea0m/need-to-test-login-please-help" title="Hi, is there a way to use selenium to do multiple logins to a page with only one browser? without opening new browser all the time? meaning: 1. each login page needs to be opened with a new tab. 2 ...">[selenium-users] need to test login please help</a></span></li>
+							<li style="margin-bottom:0.3em"><span><a class="hl_y" style="font-weight:bold" href="/t/gg/selenium-users/1382ryh4e7/browser-is-not-opening" title="Hi All, I am trying to open webdriver in different browser i.e.Mozill and Chrome, FAILED CONFIGURATION: @BeforeMethod openbrowser org.testng.TestNGException: Parameter &#39;browser&#39; is required by ...">[selenium-users] Browser is not opening</a></span></li>
+							<li style="margin-bottom:0.3em"><span><a class="hl_y" style="font-weight:bold" href="/t/gg/selenium-users/1378epey8p/address-link-issue" title="i have written this... driver.get(&quot;http://www.gmail.com&quot;);.... Browser is opening but it is not writing the URL into the Address bar...? -- You received this message because you are subscribed to the ...">[selenium-users] Address link issue..</a></span></li>
+							<li style="margin-bottom:0.3em"><span><a class="hl_y" style="font-weight:bold" href="/t/gg/selenium-users/135nmf6agw/firefox-is-not-opening" title="Hi All, While i am trying to open the firefox browser i am getting the below error message and the browser is not opening at all. How to overcome those error message? Error Message: Unable to connect ...">[selenium-users] Firefox is not opening!!</a></span></li>
+							<li style="margin-bottom:0.3em"><span><a class="hl_y" style="font-weight:bold" href="/t/gg/selenium-users/13535aj17m/how-selenium-grid-node-works" title="How does the Selenium stand alone server running as Grid node, handles the request coming from hub and do steps like opening the browser and running the tests on it. I am not able to find any ...">[selenium-users] How Selenium grid node works</a></span></li>
+			</ul></div></div>
+			<!--/div><- main_1 -->
+	<!--div class="main_2"><- class="main_2"-->
+
+			</div><!-- end main col-1 -->
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3"><!-- begin main col-2 -->
+
+
+		<div class="sb_box">
+			<div class="sb_box_header">Discussion Navigation</div>
+			<table>
+				<tr><td class="sb_tbl_key">view</td><td class="sb_tbl_val"><span class="current">thread</span> <span class="inactive">|</span> <a href="/p/gg/selenium-users/126cz1c35b/how-to-use-chrome-extension-when-opening-chrome-browser-on-a-node">post</a></td></tr>
+		</table></div>
+		<div class="sb_box">
+			<div class="sb_box_header">Discussion Overview</div>
+			<table>
+				<tr><td class="sb_tbl_key">group</td><td class="sb_tbl_val"><a href="/g/gg/selenium-users">selenium-users</a> <a style="display:none" href="/g/gg">@<br />
+<b>Notice</b>:  Undefined variable: pl_domain_short in <b>/home/whirl/sites/grokbase/root/www/public_html__www/cc/flow/tpc.main.php</b> on line <b>1605</b><br />
+</a>
+					<a href="/g/gg/selenium-users/info"><i class="fa fa-question-circle"></i></a>					</td></tr>
+				<tr><td class="sb_tbl_key">categories</td><td class="sb_tbl_val"><a href="/s/selenium">selenium</a></td></tr>				<tr><td class="sb_tbl_key">posted</td><td class="sb_tbl_val"><a class="dt_y2" href="/g/gg/selenium-users/2012/06">Jun 12, '12 at 8:21p</a></td></tr>
+				<tr><td class="sb_tbl_key">active</td><td class="sb_tbl_val"><a class="dt_y2" href="/g/gg/selenium-users/2013/12">Dec 20, '13 at 8:34a</a></td></tr>
+				<tr><td class="sb_tbl_key">posts</td><td class="sb_tbl_val">8</td></tr>
+				<tr><td class="sb_tbl_key">users</td><td class="sb_tbl_val">3</td></tr>
+				<tr><td class="sb_tbl_key">website</td><td class="sb_tbl_val"><a class="external" href="http://seleniumhq.org">seleniumhq.org</a></td></tr>
+						</table>
+		</div>
+		<div class="sb_box" id="sb_preferences" style="display:none" onmouseover="$('.sb_pref_hints').css('display','');" onmouseout="$('.sb_pref_hints').css('display','none');">
+			<div class="sb_box_header">Preferences</div>
+		
+			<table style="width:100%">
+				<tr><td class="sb_tbl_key">responses</td>
+					<td class="sb_tbl_val"><a id="ctl_rbody_showhide" href="#" onclick="if ($('div.rbody').css('display') == 'none') {$('.tr_head_thin').css('display','none');$('.rbody').css('display','');$('#ctl_rbody_showhide').html('expanded');setCookie('rbody','s')} else {$('.rbody').css('display','none');$('.tr_head_thin').css('display','');$('#ctl_rbody_showhide').html('collapsed');setCookie('rbody','h')}; return false;">expanded</a>
+				</td>
+				<td class="sb_tbl_val sb_tbl_rt inactive sb_pref_hints" style="display:none">Hotkey:&nbsp;s</td></tr>
+				<tr><td class="sb_tbl_key">font</td>
+					<td class="sb_tbl_val"><a id="ctl_font" href="#" onclick="if ( $('div.m_body').css('font-family').match(/monospace/) ) { $('div.m_body').css('font-family','');$('div.m_body').css('font-size','90%');$('#ctl_font').html('variable');setCookie('font','v') } else { $('div.m_body').css('font-family','DejaVu Sans Mono,Lucida Console,Monaco,courier new,courier,monospace');$('div.m_body').css('font-size','80%');$('#ctl_font').html('fixed');setCookie('font','f') } ;return false;">variable</a>
+				</td>
+				<td class="sb_tbl_val sb_tbl_rt inactive sb_pref_hints" style="display:none">Hotkey:&nbsp;f</td></tr>
+
+
+				<tr><td class="sb_tbl_key">user style</td>
+				<td class="sb_tbl_val"><a id="ctl_ulist_style" href="#" onclick="uPrefs.tog_sb_u_style();return false">avatars</a></td>
+				<td class="sb_tbl_val sb_tbl_rt inactive sb_pref_hints" style="display:none">Hotkey:&nbsp;a</td></tr>
+			</table>
+		</div>
+
+
+		<div id="user_list_content">
+			<h3>3 users in discussion</h3>
+			<div id="user_list_avatars" style="width:100%;padding-left:10px">
+		
+			<a href="/user/Newbee/KphRHJwsfTrZACX6MBmp2c" title="Newbee: 5 posts"><img class="av_40" src="/avatar/KphRHJwsfTrZACX6MBmp2c/40" alt="Newbee: 5 posts" width="40" height="40" /></a>
+
+			
+			<a href="/user/Jim-Evans/t49cvEJeNJYR7fi349xbw" title="Jim Evans: 2 posts"><img class="av_40" src="/avatar/t49cvEJeNJYR7fi349xbw/40" alt="Jim Evans: 2 posts" width="40" height="40" /></a>
+
+			
+			<a href="/user/Babette-Wagner/DGQzKQ1AtzGBca5NRJE3kX" title="Babette Wagner: 1 post"><img class="av_40" src="/avatar/DGQzKQ1AtzGBca5NRJE3kX/40" alt="Babette Wagner: 1 post" width="40" height="40" /></a>
+
+						</div><div id="user_list_names" class="hl_y" style="display:none">
+					<a style="margin-top:-3px" href="/user/Newbee/KphRHJwsfTrZACX6MBmp2c" title="Newbee: 5 posts">Newbee (5)</a><br />
+						<a style="margin-top:-3px" href="/user/Jim-Evans/t49cvEJeNJYR7fi349xbw" title="Jim Evans: 2 posts">Jim Evans (2)</a><br />
+						<a style="margin-top:-3px" href="/user/Babette-Wagner/DGQzKQ1AtzGBca5NRJE3kX" title="Babette Wagner: 1 post">Babette Wagner (1)</a><br />
+						</div><div style="clear:both;height:1em"></div>
+		</div>
+		
+					<!--/div><-- sb/main_2 -->
+			</div><!-- end main col-2 -->
+		</div><!-- end main row -->
+	</div><!-- end main container -->
+
+<script type="text/javascript">
+//<![CDATA[
+var dt=new dateTime;dt.init();$('a.dt_y2').each(function(index){var dtl=dt.local_text_for_any($(this).html(),1,1);if(dtl.length)$(this).html(dtl);});
+$('.dt_y4').each(function(index){var dtl=dt.local_text_for_any($(this).html());if(dtl.length)$(this).html(dtl);});
+
+$(document).bind('keydown','s',function(){if ($('div.rbody').css('display') == 'none') {$('.tr_head_thin').css('display','none');$('.rbody').css('display','');$('#ctl_rbody_showhide').html('expanded');setCookie('rbody','s')} else {$('.rbody').css('display','none');$('.tr_head_thin').css('display','');$('#ctl_rbody_showhide').html('collapsed');setCookie('rbody','h')}});
+$(document).bind('keydown','d',function(){uPrefs.tog_sb_u_list()});
+$(document).bind('keydown','a',function(){uPrefs.tog_sb_u_style()});
+$(document).bind('keydown','f',function(){if($('div.m_body').css('font-family').match(/monospace/) ) { $('div.m_body').css('font-family','');$('div.m_body_one').css('font-size','100%');$('div.m_body_resp').css('font-size','90%');$('#ctl_font').html('variable');setCookie('font','v') } else { $('div.m_body').css('font-family','DejaVu Sans Mono,Lucida Console,Monaco,courier new,courier,monospace');$('div.m_body').css('font-size','90%');$('#ctl_font').html('fixed');setCookie('font','f')};});
+
+$('#sb_preferences').css('display','');
+//var tPgFwd    = new pgFwd(,); tPgFwd.init();
+var iRToggler = new rToggler;iRToggler.init();
+var iQToggler = new qToggler;iQToggler.init("t");
+if (getCookie('font')=='f') {$('div.m_body').css('font-family','DejaVu Sans Mono,Lucida Console,Monaco,courier new,courier,monospace');$('div.m_body').css('font-size','80%');$('#ctl_font').html('fixed');};
+var uPrefs = new user_prefs('t');uPrefs.init();
+//if (getCookie('ustyle')=='n')   {$('#user_list_avatars').css('display','none');$('#user_list_names').css('display','');$('#ctl_ulist_style').html('names');};
+//]]>
+</script>
+
+</div><!-- main -->
+<div style="clear:both"></div>
+
+	<div style="clear:both;height:1em"></div>
+
+	<!-- beg footer -->
+	<div style="background-color:#efefef;margin-top:1em;padding-top:1em;border-top:1px #ddd solid">
+		<div class="container theme-showcase" role="main">
+			<div class="row" style="padding-bottom:1em">
+
+				<div class="col-sm-3 col-md-3 col-lg-3">
+					<p class="text-muted b">Content</p>
+					<ul class="list-unstyled">
+						<li><a href="/">Home</a></li>
+						<li><a href="/groups">Groups &amp; Organizations</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3 col-md-3 col-lg-3">
+					<p class="text-muted b">People</p>
+					<ul class="list-unstyled">
+						<li><a href="/users">Users</a></li>
+						<li><a href="/groups">Badges</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3 col-md-3 col-lg-3">
+					<p class="text-muted b">Support</p>
+					<ul class="list-unstyled">
+						<li><a href="/welcome">Welcome</a></li>
+						<li><a href="/faq">FAQ</a></li>
+						<li><a href="/faq#miscellaneous__contact">Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3 col-md-3 col-lg-3">
+
+					<p class="text-muted b">Translate</p>
+
+<div id="google_translate_element"></div><script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'auto',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script><script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+				</div>
+			</div>
+		</div>
+		<div class="container theme-showcase" role="main">
+			<div class="row" style="padding-bottom:1em">
+
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<p>site design / logo &copy; 2016 Grokbase
+
+
+				</div>
+			</div>
+		</div>
+	</div><!-- end footer -->
+
+
+<!--
+<div id="footer_sep"></div>
+<div id="footer">
+	<div id="footer_content">
+	<div id="footer_col1">
+		<h3>Content</h3>
+		<ul class="bullet">
+			<li><a href="/">Home</a></li>
+			<li><a href="/groups">Groups &amp; Organizations</a></li>
+		</ul>
+	</div>
+	<div id="footer_col2">
+		<h3>People</h3>
+		<ul class="bullet">
+			<li><a href="/users">Users</a></li>
+			<li><a href="/badges">Badges</a></li>
+		</ul>
+	</div>
+	<div id="footer_col3">
+		<h3>Support</h3>
+		<ul class="bullet">
+			<li><a href="/welcome">Welcome</a></li>
+			<li><a href="/faq">F.A.Q.</a></li>
+			<li><a href="/faq#miscellaneous__contact">Contact Us</a></li>
+		</ul>
+	</div>
+	<div id="footer_coln">
+
+		<h3>Translate</h3>
+
+<div id="google_translate_element"></div><script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'auto',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script><script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+	</div>
+
+	<div style="clear:both"></div>
+
+	<p id="copy">site design / logo &copy; 2014 Grokbase</p>
+	</div>
+</div>
+-->
+</div>
+<script type="text/javascript">
+$('.dh').show();
+</script>
+</body></html>

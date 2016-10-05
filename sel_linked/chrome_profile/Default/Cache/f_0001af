@@ -1,0 +1,1610 @@
+ var gnbNavMenu2011 = [{
+		 menuNm:'리빙', 
+		 dispNo:'002' , 
+		 dispKind:'01' , 
+		 dispPrir:'1' , 
+		 menuNo:'162' , 
+		 highMenuNo:'0' , 
+		 iconTp :'N' , 
+		 target:'01' , 
+		 addLink:'http://www.interpark.com/shopping/index.html' ,  
+		 subMenu : [ 
+{
+				 menuNm:'생활/수납/욕실/청소',
+				 dispNo:'001830' , 
+				 dispKind:'01' , 
+				 dispPrir:'1' , 
+				 menuNo:'210' , 
+				 highMenuNo:'162' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001830' 
+			}
+			 , {
+				 menuNm:'주방/수입주방',
+				 dispNo:'001880' , 
+				 dispKind:'01' , 
+				 dispPrir:'2' , 
+				 menuNo:'208' , 
+				 highMenuNo:'162' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://kitchen.interpark.com/malls/index.do' 
+			}
+			 , {
+				 menuNm:'세제/화장지/물티슈/생리대',
+				 dispNo:'001831' , 
+				 dispKind:'01' , 
+				 dispPrir:'3' , 
+				 menuNo:'1521' , 
+				 highMenuNo:'162' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001831' 
+			}
+			 , {
+				 menuNm:'문구/팬시/사무/보안',
+				 dispNo:'001850' , 
+				 dispKind:'01' , 
+				 dispPrir:'4' , 
+				 menuNo:'207' , 
+				 highMenuNo:'162' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001850' 
+			}
+			 , {
+				 menuNm:'가구/인테리어',
+				 dispNo:'001810' , 
+				 dispKind:'01' , 
+				 dispPrir:'5' , 
+				 menuNo:'204' , 
+				 highMenuNo:'162' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://furniture.interpark.com/malls/furniture/index.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001810' 
+			}
+			 , {
+				 menuNm:'홈인테리어/조명/꽃배달',
+				 dispNo:'001860' , 
+				 dispKind:'01' , 
+				 dispPrir:'6' , 
+				 menuNo:'209' , 
+				 highMenuNo:'162' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001860' 
+			}
+			 , {
+				 menuNm:'침구/커튼/카페트',
+				 dispNo:'001820' , 
+				 dispKind:'01' , 
+				 dispPrir:'7' , 
+				 menuNo:'205' , 
+				 highMenuNo:'162' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001820' 
+			}
+			 , {
+				 menuNm:'건강/의료/성인용품',
+				 dispNo:'001840' , 
+				 dispKind:'01' , 
+				 dispPrir:'8' , 
+				 menuNo:'206' , 
+				 highMenuNo:'162' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001840' 
+			}
+			 , {
+				 menuNm:'공구/철물/산업/안전',
+				 dispNo:'001851' , 
+				 dispKind:'01' , 
+				 dispPrir:'9' , 
+				 menuNo:'1641' , 
+				 highMenuNo:'162' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001851' 
+			}
+			 , {
+				 menuNm:'가구스타일 요약몰',
+				 dispNo:'001008' , 
+				 dispKind:'01' , 
+				 dispPrir:'10' , 
+				 menuNo:'2101' , 
+				 highMenuNo:'162' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/SummaryProduct.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001008' 
+			}
+			 , {
+				 menuNm:'인터파크 직영 명품주방',
+				 dispNo:'001880' , 
+				 dispKind:'03' , 
+				 dispPrir:'1' , 
+				 menuNo:'1441' , 
+				 highMenuNo:'162' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://kitchen.interpark.com/kitchen/premiumdisplay/main.do?' 
+			}
+			 , {
+				 menuNm:'가구직영몰',
+				 dispNo:'001' , 
+				 dispKind:'03' , 
+				 dispPrir:'2' , 
+				 menuNo:'761' , 
+				 highMenuNo:'162' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://furniture.interpark.com/furniture/display/premiumMain.do?dispNo=001810233&D1=gnb&D2=furniture&D3=mall' 
+			}
+			 , {
+				 menuNm:'인테리어 브랜드샵',
+				 dispNo:'001' , 
+				 dispKind:'03' , 
+				 dispPrir:'4' , 
+				 menuNo:'311' , 
+				 highMenuNo:'162' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=2Depth&sc.shopNo=0000100000&sc.dispNo=001860022' 
+			}
+			 , {
+				 menuNm:'복사용지 특가 기획매장',
+				 dispNo:'001' , 
+				 dispKind:'03' , 
+				 dispPrir:'5' , 
+				 menuNo:'313' , 
+				 highMenuNo:'162' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/malls/html/event_html/event_021850005.html' 
+			}
+			 , {
+				 menuNm:'[단독할인] 안마의자 렌탈',
+				 dispNo:'001' , 
+				 dispKind:'03' , 
+				 dispPrir:'7' , 
+				 menuNo:'327' , 
+				 highMenuNo:'162' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/sellerAllProduct.do?_method=event&sc.entrNo=3002739241&sc.supplyCtrtSeq=2&sc.evtNo=127262' 
+			}
+			 , {
+				 menuNm:'쁘리엘르 여름침구OPEN',
+				 dispNo:'001' , 
+				 dispKind:'03' , 
+				 dispPrir:'8' , 
+				 menuNo:'1541' , 
+				 highMenuNo:'162' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/sellerAllProduct.do?_method=event&sc.entrNo=3002754114&sc.supplyCtrtSeq=1&sc.evtNo=118155' 
+			}
+			 , {
+				 menuNm:'간절기침구 반값 SALE',
+				 dispNo:'001' , 
+				 dispKind:'03' , 
+				 dispPrir:'9' , 
+				 menuNo:'1542' , 
+				 highMenuNo:'162' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/sellerAllProduct.do?_method=event&sc.entrNo=3000014140&sc.supplyCtrtSeq=2&sc.evtNo=119465' 
+			}
+			 , {
+				 menuNm:'입문용 악기 구매가이드',
+				 dispNo:'001' , 
+				 dispKind:'03' , 
+				 dispPrir:'10' , 
+				 menuNo:'1861' , 
+				 highMenuNo:'162' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/malls/html/event_html/event_021841002.html' 
+			}
+		 ]
+	}
+ , {
+		 menuNm:'유아동/식품', 
+		 dispNo:'003' , 
+		 dispKind:'01' , 
+		 dispPrir:'2' , 
+		 menuNo:'163' , 
+		 highMenuNo:'0' , 
+		 iconTp :'N' , 
+		 target:'02' , 
+		 addLink:'http://www.interpark.com/shopping/index.html' ,  
+		 subMenu : [ 
+{
+				 menuNm:'출산/임부/유아용품',
+				 dispNo:'001610' , 
+				 dispKind:'01' , 
+				 dispPrir:'1' , 
+				 menuNo:'215' , 
+				 highMenuNo:'163' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001610' 
+			}
+			 , {
+				 menuNm:'완구(아이토이즈)',
+				 dispNo:'001100' , 
+				 dispKind:'01' , 
+				 dispPrir:'2' , 
+				 menuNo:'2181' , 
+				 highMenuNo:'163' , 
+				 iconTp:'http://openimage.interpark.com/_nip_ui/welcome2011/icon/icon_new.gif' , 
+				 target:'01' , 
+				 addLink:'http://toy.interpark.com/display/malls.do?_method=main' 
+			}
+			 , {
+				 menuNm:'기저귀/분유',
+				 dispNo:'001750' , 
+				 dispKind:'01' , 
+				 dispPrir:'3' , 
+				 menuNo:'214' , 
+				 highMenuNo:'163' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001750' 
+			}
+			 , {
+				 menuNm:'유아동의류/잡화/임부복',
+				 dispNo:'001620' , 
+				 dispKind:'01' , 
+				 dispPrir:'4' , 
+				 menuNo:'265' , 
+				 highMenuNo:'163' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001620' 
+			}
+			 , {
+				 menuNm:'가공식품/커피/음료/과자',
+				 dispNo:'001760' , 
+				 dispKind:'01' , 
+				 dispPrir:'5' , 
+				 menuNo:'213' , 
+				 highMenuNo:'163' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001760' 
+			}
+			 , {
+				 menuNm:'건강식품/홍삼/다이어트',
+				 dispNo:'001710' , 
+				 dispKind:'01' , 
+				 dispPrir:'6' , 
+				 menuNo:'264' , 
+				 highMenuNo:'163' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001710' 
+			}
+			 , {
+				 menuNm:'쌀/과일/축산/수산물',
+				 dispNo:'001770' , 
+				 dispKind:'01' , 
+				 dispPrir:'7' , 
+				 menuNo:'212' , 
+				 highMenuNo:'163' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001770' 
+			}
+			 , {
+				 menuNm:'북마켓(도서오픈마켓)',
+				 dispNo:'001' , 
+				 dispKind:'01' , 
+				 dispPrir:'8' , 
+				 menuNo:'1781' , 
+				 highMenuNo:'163' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycorner/BookMarket.do?_method=main' 
+			}
+			 , {
+				 menuNm:'모바일쿠폰/상품권/이용권',
+				 dispNo:'001920' , 
+				 dispKind:'01' , 
+				 dispPrir:'9' , 
+				 menuNo:'2381' , 
+				 highMenuNo:'163' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001920' 
+			}
+			 , {
+				 menuNm:'유아동 프리미엄몰',
+				 dispNo:'001111' , 
+				 dispKind:'02' , 
+				 dispPrir:'3' , 
+				 menuNo:'743' , 
+				 highMenuNo:'163' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycorner/KidPrimiumMall.do?_method=main' 
+			}
+			 , {
+				 menuNm:'한국인삼공사 직영몰',
+				 dispNo:'001' , 
+				 dispKind:'02' , 
+				 dispPrir:'4' , 
+				 menuNo:'1504' , 
+				 highMenuNo:'163' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://kgcshop.interpark.com' 
+			}
+			 , {
+				 menuNm:'롯데백화점식품관(10%↓)',
+				 dispNo:'001' , 
+				 dispKind:'03' , 
+				 dispPrir:'1' , 
+				 menuNo:'1881' , 
+				 highMenuNo:'163' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycategory/CooperationMall.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001960022005003' 
+			}
+			 , {
+				 menuNm:'친환경식품관(전상품20%↓)',
+				 dispNo:'001' , 
+				 dispKind:'03' , 
+				 dispPrir:'2' , 
+				 menuNo:'1922' , 
+				 highMenuNo:'163' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycorner/OrbonBrandShop.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001978' 
+			}
+			 , {
+				 menuNm:'지역특산물관(재래김 30%)',
+				 dispNo:'001' , 
+				 dispKind:'03' , 
+				 dispPrir:'3' , 
+				 menuNo:'309' , 
+				 highMenuNo:'163' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=2Depth&sc.shopNo=0000100000&sc.dispNo=001770037' 
+			}
+			 , {
+				 menuNm:'Coffee전문(더치기구sale)',
+				 dispNo:'001' , 
+				 dispKind:'03' , 
+				 dispPrir:'4' , 
+				 menuNo:'298' , 
+				 highMenuNo:'163' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://coffee.interpark.com/malls/index.do?&wid1=mid&wid2=mall&wid3=006' 
+			}
+			 , {
+				 menuNm:'최저가!  푸드특가(~65%↓)',
+				 dispNo:'001' , 
+				 dispKind:'03' , 
+				 dispPrir:'5' , 
+				 menuNo:'821' , 
+				 highMenuNo:'163' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/malls/html/event_html/event_021760008.html' 
+			}
+			 , {
+				 menuNm:'허벌라이프(정품물병증정)',
+				 dispNo:'001' , 
+				 dispKind:'03' , 
+				 dispPrir:'6' , 
+				 menuNo:'1841' , 
+				 highMenuNo:'163' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/malls/html/event_html/event_021710001.html' 
+			}
+			 , {
+				 menuNm:'우리아이food(엘빈즈sale)',
+				 dispNo:'001' , 
+				 dispKind:'03' , 
+				 dispPrir:'7' , 
+				 menuNo:'844' , 
+				 highMenuNo:'163' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/malls/html/event_html/event_021760003.html' 
+			}
+		 ]
+	}
+ , {
+		 menuNm:'패션/뷰티', 
+		 dispNo:'001' , 
+		 dispKind:'01' , 
+		 dispPrir:'3' , 
+		 menuNo:'161' , 
+		 highMenuNo:'0' , 
+		 iconTp :'N' , 
+		 target:'01' , 
+		 addLink:'http://www.interpark.com/shopping/index.html' ,  
+		 subMenu : [ 
+{
+				 menuNm:'화장품',
+				 dispNo:'001310' , 
+				 dispKind:'01' , 
+				 dispPrir:'1' , 
+				 menuNo:'203' , 
+				 highMenuNo:'161' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001310' 
+			}
+			 , {
+				 menuNm:'향수/바디/헤어/미용',
+				 dispNo:'001320' , 
+				 dispKind:'01' , 
+				 dispPrir:'2' , 
+				 menuNo:'262' , 
+				 highMenuNo:'161' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001320' 
+			}
+			 , {
+				 menuNm:'슈즈',
+				 dispNo:'001262' , 
+				 dispKind:'01' , 
+				 dispPrir:'3' , 
+				 menuNo:'261' , 
+				 highMenuNo:'161' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://shoes.interpark.com/malls/index.do' 
+			}
+			 , {
+				 menuNm:'패션잡화',
+				 dispNo:'001241005' , 
+				 dispKind:'01' , 
+				 dispPrir:'4' , 
+				 menuNo:'182' , 
+				 highMenuNo:'161' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://fashion.interpark.com/fashion/display/1Depth.do?shopNo=0000100000&dispNo=001206' 
+			}
+			 , {
+				 menuNm:'수입명품',
+				 dispNo:'001241007' , 
+				 dispKind:'01' , 
+				 dispPrir:'5' , 
+				 menuNo:'2130' , 
+				 highMenuNo:'161' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://fashion.interpark.com/fashion/display/1Depth.do?shopNo=0000100000&dispNo=001207' 
+			}
+			 , {
+				 menuNm:'시계/쥬얼리/선글라스',
+				 dispNo:'001241006' , 
+				 dispKind:'01' , 
+				 dispPrir:'6' , 
+				 menuNo:'241' , 
+				 highMenuNo:'161' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://fashion.interpark.com/fashion/display/1Depth.do?shopNo=0000100000&dispNo=001240' 
+			}
+			 , {
+				 menuNm:'여성의류',
+				 dispNo:'001241001' , 
+				 dispKind:'01' , 
+				 dispPrir:'7' , 
+				 menuNo:'181' , 
+				 highMenuNo:'161' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://fashion.interpark.com/fashion/display/1Depth.do?shopNo=0000100000&dispNo=001201' 
+			}
+			 , {
+				 menuNm:'남성의류',
+				 dispNo:'001241002' , 
+				 dispKind:'01' , 
+				 dispPrir:'8' , 
+				 menuNo:'201' , 
+				 highMenuNo:'161' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://fashion.interpark.com/fashion/display/1Depth.do?shopNo=0000100000&dispNo=001202' 
+			}
+			 , {
+				 menuNm:'캐쥬얼의류',
+				 dispNo:'001241003' , 
+				 dispKind:'01' , 
+				 dispPrir:'9' , 
+				 menuNo:'721' , 
+				 highMenuNo:'161' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://fashion.interpark.com/fashion/display/1Depth.do?shopNo=0000100000&dispNo=001203' 
+			}
+			 , {
+				 menuNm:'홈/언더웨어',
+				 dispNo:'001241004' , 
+				 dispKind:'01' , 
+				 dispPrir:'11' , 
+				 menuNo:'321' , 
+				 highMenuNo:'161' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://fashion.interpark.com/fashion/display/1Depth.do?shopNo=0000100000&dispNo=001205' 
+			}
+			 , {
+				 menuNm:'브랜드시계 요약몰',
+				 dispNo:'001001' , 
+				 dispKind:'01' , 
+				 dispPrir:'12' , 
+				 menuNo:'2081' , 
+				 highMenuNo:'161' , 
+				 iconTp:'http://openimage.interpark.com/_nip_ui/welcome2011/icon/icon_new.gif' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/SummaryProduct.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001001' 
+			}
+			 , {
+				 menuNm:'스닉솔브랜드관',
+				 dispNo:'001272' , 
+				 dispKind:'01' , 
+				 dispPrir:'13' , 
+				 menuNo:'2441' , 
+				 highMenuNo:'161' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycorner/Sneaksoul.do?_method=main' 
+			}
+			 , {
+				 menuNm:'LOTTE 롯데백화점',
+				 dispNo:'001960022' , 
+				 dispKind:'02' , 
+				 dispPrir:'1' , 
+				 menuNo:'1821' , 
+				 highMenuNo:'161' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycategory/CooperationMall.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001960022' 
+			}
+			 , {
+				 menuNm:'패션',
+				 dispNo:'001201' , 
+				 dispKind:'02' , 
+				 dispPrir:'2' , 
+				 menuNo:'202' , 
+				 highMenuNo:'161' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://fashion.interpark.com/fashion/main.do?shopNo=0000100000&dispNo=001241' 
+			}
+			 , {
+				 menuNm:'스토어디패션',
+				 dispNo:'001231' , 
+				 dispKind:'02' , 
+				 dispPrir:'3' , 
+				 menuNo:'724' , 
+				 highMenuNo:'161' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://fashion.interpark.com/stored/main.do?shopNo=0000100000&dispNo=001231' 
+			}
+			 , {
+				 menuNm:'마리오아울렛',
+				 dispNo:'001' , 
+				 dispKind:'02' , 
+				 dispPrir:'4' , 
+				 menuNo:'316' , 
+				 highMenuNo:'161' , 
+				 iconTp:'N' , 
+				 target:'02' , 
+				 addLink:'http://www.interpark.com/displaycategory/CooperationMall.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001960020&sid1=gnb&sid2=cate&sid3=fashion&sid4=th' 
+			}
+			 , {
+				 menuNm:'남성의류 전문관',
+				 dispNo:'001' , 
+				 dispKind:'02' , 
+				 dispPrir:'5' , 
+				 menuNo:'1801' , 
+				 highMenuNo:'161' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/malls/html/event_html/event_021202013.html' 
+			}
+			 , {
+				 menuNm:'해외명품 브랜드관',
+				 dispNo:'001' , 
+				 dispKind:'02' , 
+				 dispPrir:'7' , 
+				 menuNo:'292' , 
+				 highMenuNo:'161' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/malls/html/event_html/event_021206049.html' 
+			}
+			 , {
+				 menuNm:'뷰티직영 브랜드관',
+				 dispNo:'001' , 
+				 dispKind:'02' , 
+				 dispPrir:'9' , 
+				 menuNo:'315' , 
+				 highMenuNo:'161' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/brandshop.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001972003' 
+			}
+		 ]
+	}
+ , {
+		 menuNm:'디지털', 
+		 dispNo:'005' , 
+		 dispKind:'01' , 
+		 dispPrir:'4' , 
+		 menuNo:'165' , 
+		 highMenuNo:'0' , 
+		 iconTp :'N' , 
+		 target:'01' , 
+		 addLink:'http://www.interpark.com/shopping/index.html' ,  
+		 subMenu : [ 
+{
+				 menuNm:'스마트폰/액세서리/웨어러블',
+				 dispNo:'001170' , 
+				 dispKind:'01' , 
+				 dispPrir:'1' , 
+				 menuNo:'245' , 
+				 highMenuNo:'165' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001170' 
+			}
+			 , {
+				 menuNm:'카메라/드론/VR/360',
+				 dispNo:'001140' , 
+				 dispKind:'01' , 
+				 dispPrir:'2' , 
+				 menuNo:'246' , 
+				 highMenuNo:'165' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001140' 
+			}
+			 , {
+				 menuNm:'TV/세탁기/냉장고',
+				 dispNo:'001150' , 
+				 dispKind:'01' , 
+				 dispPrir:'3' , 
+				 menuNo:'243' , 
+				 highMenuNo:'165' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001150' 
+			}
+			 , {
+				 menuNm:'주방가전',
+				 dispNo:'001151' , 
+				 dispKind:'01' , 
+				 dispPrir:'4' , 
+				 menuNo:'2241' , 
+				 highMenuNo:'165' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001151' 
+			}
+			 , {
+				 menuNm:'가습/난방/공기청정/계절',
+				 dispNo:'001160' , 
+				 dispKind:'01' , 
+				 dispPrir:'5' , 
+				 menuNo:'244' , 
+				 highMenuNo:'165' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001160' 
+			}
+			 , {
+				 menuNm:'음향/IOT/스마트홈',
+				 dispNo:'001130' , 
+				 dispKind:'01' , 
+				 dispPrir:'6' , 
+				 menuNo:'242' , 
+				 highMenuNo:'165' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001130' 
+			}
+			 , {
+				 menuNm:'청소기/이미용/소형/사무',
+				 dispNo:'001180' , 
+				 dispKind:'01' , 
+				 dispPrir:'7' , 
+				 menuNo:'304' , 
+				 highMenuNo:'165' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001180' 
+			}
+			 , {
+				 menuNm:'노트북/데스크탑/태블릿',
+				 dispNo:'001110' , 
+				 dispKind:'01' , 
+				 dispPrir:'8' , 
+				 menuNo:'266' , 
+				 highMenuNo:'165' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001110' 
+			}
+			 , {
+				 menuNm:'모니터/프린터/잉크',
+				 dispNo:'001120' , 
+				 dispKind:'01' , 
+				 dispPrir:'9' , 
+				 menuNo:'267' , 
+				 highMenuNo:'165' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001120' 
+			}
+			 , {
+				 menuNm:'PC부품/주변기기',
+				 dispNo:'001121' , 
+				 dispKind:'01' , 
+				 dispPrir:'10' , 
+				 menuNo:'2341' , 
+				 highMenuNo:'165' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001121' 
+			}
+			 , {
+				 menuNm:'저장장치/메모리',
+				 dispNo:'001122' , 
+				 dispKind:'01' , 
+				 dispPrir:'11' , 
+				 menuNo:'2342' , 
+				 highMenuNo:'165' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001122' 
+			}
+			 , {
+				 menuNm:'게임기/타이틀',
+				 dispNo:'001910' , 
+				 dispKind:'01' , 
+				 dispPrir:'12' , 
+				 menuNo:'268' , 
+				 highMenuNo:'165' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001910' 
+			}
+			 , {
+				 menuNm:'조립PC몰',
+				 dispNo:'001110105' , 
+				 dispKind:'02' , 
+				 dispPrir:'1' , 
+				 menuNo:'1382' , 
+				 highMenuNo:'165' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=2Depth&sc.shopNo=0000100000&sc.dispNo=001110105' 
+			}
+			 , {
+				 menuNm:'디지털스퀘어',
+				 dispNo:'001' , 
+				 dispKind:'02' , 
+				 dispPrir:'2' , 
+				 menuNo:'841' , 
+				 highMenuNo:'165' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycorner/DigitalParkMall.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001996' 
+			}
+			 , {
+				 menuNm:'게임브랜드샵',
+				 dispNo:'001' , 
+				 dispKind:'02' , 
+				 dispPrir:'4' , 
+				 menuNo:'306' , 
+				 highMenuNo:'165' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycorner/GameShop.do?_method=GameShopMain&sc.shopNo=0000100000&sc.dispNo=001910129' 
+			}
+			 , {
+				 menuNm:'사진인화서비스',
+				 dispNo:'001' , 
+				 dispKind:'02' , 
+				 dispPrir:'5' , 
+				 menuNo:'303' , 
+				 highMenuNo:'165' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://photo.interpark.com:9000/ASP/interpark/?' 
+			}
+			 , {
+				 menuNm:'외장하드 파워브랜드',
+				 dispNo:'001' , 
+				 dispKind:'03' , 
+				 dispPrir:'7' , 
+				 menuNo:'307' , 
+				 highMenuNo:'165' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=2Depth&sc.shopNo=0000100000&sc.dispNo=001120201' 
+			}
+			 , {
+				 menuNm:'La Musica 레코드샵',
+				 dispNo:'001' , 
+				 dispKind:'03' , 
+				 dispPrir:'9' , 
+				 menuNo:'1703' , 
+				 highMenuNo:'165' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/malls/html/event_html/event_021130007.html' 
+			}
+		 ]
+	}
+ , {
+		 menuNm:'레저', 
+		 dispNo:'004' , 
+		 dispKind:'01' , 
+		 dispPrir:'5' , 
+		 menuNo:'164' , 
+		 highMenuNo:'0' , 
+		 iconTp :'N' , 
+		 target:'01' , 
+		 addLink:'http://www.interpark.com/shopping/index.html' ,  
+		 subMenu : [ 
+{
+				 menuNm:'등산/캠핑/낚시/여행',
+				 dispNo:'001550' , 
+				 dispKind:'01' , 
+				 dispPrir:'1' , 
+				 menuNo:'222' , 
+				 highMenuNo:'164' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001550' 
+			}
+			 , {
+				 menuNm:'자전거/인라인/오토바이',
+				 dispNo:'001560' , 
+				 dispKind:'01' , 
+				 dispPrir:'2' , 
+				 menuNo:'223' , 
+				 highMenuNo:'164' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001560' 
+			}
+			 , {
+				 menuNm:'헬스/다이어트/보충제',
+				 dispNo:'001561' , 
+				 dispKind:'01' , 
+				 dispPrir:'3' , 
+				 menuNo:'2321' , 
+				 highMenuNo:'164' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001561' 
+			}
+			 , {
+				 menuNm:'구기/라켓/수영/스키',
+				 dispNo:'001570' , 
+				 dispKind:'01' , 
+				 dispPrir:'4' , 
+				 menuNo:'218' , 
+				 highMenuNo:'164' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001570' 
+			}
+			 , {
+				 menuNm:'골프클럽/신발/용품',
+				 dispNo:'001510' , 
+				 dispKind:'01' , 
+				 dispPrir:'5' , 
+				 menuNo:'216' , 
+				 highMenuNo:'164' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001510' 
+			}
+			 , {
+				 menuNm:'스포츠레저화',
+				 dispNo:'001260024' , 
+				 dispKind:'01' , 
+				 dispPrir:'6' , 
+				 menuNo:'1361' , 
+				 highMenuNo:'164' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://shoes.interpark.com/displayCorner/display02dNew.do?depth=2D&dispNo=001262001' 
+			}
+			 , {
+				 menuNm:'스포츠레져의류',
+				 dispNo:'001241007001' , 
+				 dispKind:'01' , 
+				 dispPrir:'7' , 
+				 menuNo:'217' , 
+				 highMenuNo:'164' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://fashion.interpark.com/fashion/display/1Depth.do?shopNo=0000100000&dispNo=001204' 
+			}
+			 , {
+				 menuNm:'블랙박스/내비/자동차용품',
+				 dispNo:'001540' , 
+				 dispKind:'01' , 
+				 dispPrir:'8' , 
+				 menuNo:'220' , 
+				 highMenuNo:'164' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001540' 
+			}
+			 , {
+				 menuNm:'피아노/악기/취미',
+				 dispNo:'001841' , 
+				 dispKind:'01' , 
+				 dispPrir:'9' , 
+				 menuNo:'1941' , 
+				 highMenuNo:'164' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001841' 
+			}
+			 , {
+				 menuNm:'반려동물/애완용품',
+				 dispNo:'001842' , 
+				 dispKind:'01' , 
+				 dispPrir:'10' , 
+				 menuNo:'2021' , 
+				 highMenuNo:'164' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=1Depth&sc.shopNo=0000100000&sc.dispNo=001842' 
+			}
+			 , {
+				 menuNm:'강아지용품 통합배송몰',
+				 dispNo:'001019' , 
+				 dispKind:'01' , 
+				 dispPrir:'11' , 
+				 menuNo:'2261' , 
+				 highMenuNo:'164' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/SummaryProduct.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001019' 
+			}
+			 , {
+				 menuNm:'고양이용품 통합배송몰',
+				 dispNo:'001020' , 
+				 dispKind:'01' , 
+				 dispPrir:'12' , 
+				 menuNo:'2281' , 
+				 highMenuNo:'164' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/SummaryProduct.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001020&mbn=gnb_sp&mln=loc_1D&D1_name=%B9%DD%B7%C1%B5%BF%B9%B0%BE%D6%BF%CF%BF%EB%C7%B0&D1_block=catelist&D1_item=2D' 
+			}
+			 , {
+				 menuNm:'캠핑 브랜드관',
+				 dispNo:'1' , 
+				 dispKind:'03' , 
+				 dispPrir:'1' , 
+				 menuNo:'224' , 
+				 highMenuNo:'164' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/sellerAllProduct.do?_method=event&sc.entrNo=3002769648&sc.supplyCtrtSeq=5&sc.evtNo=128744' 
+			}
+			 , {
+				 menuNm:'2013 프로야구 브랜드관',
+				 dispNo:'2' , 
+				 dispKind:'03' , 
+				 dispPrir:'2' , 
+				 menuNo:'225' , 
+				 highMenuNo:'164' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/malls/html/event_html/event_021570002.html' 
+			}
+			 , {
+				 menuNm:'자전거 용품샵',
+				 dispNo:'4' , 
+				 dispKind:'03' , 
+				 dispPrir:'3' , 
+				 menuNo:'302' , 
+				 highMenuNo:'164' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/malls/html/event_html/event_021560016.html' 
+			}
+			 , {
+				 menuNm:'골프의류브랜드샵',
+				 dispNo:'5' , 
+				 dispKind:'03' , 
+				 dispPrir:'5' , 
+				 menuNo:'300' , 
+				 highMenuNo:'164' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=2Depth&sc.shopNo=0000100000&sc.dispNo=001510209' 
+			}
+			 , {
+				 menuNm:'현대/기아 전용상품',
+				 dispNo:'8' , 
+				 dispKind:'03' , 
+				 dispPrir:'8' , 
+				 menuNo:'318' , 
+				 highMenuNo:'164' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=2Depth&sc.shopNo=0000100000&sc.dispNo=001540024' 
+			}
+			 , {
+				 menuNm:'아웃도어 브랜드샵',
+				 dispNo:'9' , 
+				 dispKind:'03' , 
+				 dispPrir:'9' , 
+				 menuNo:'1601' , 
+				 highMenuNo:'164' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=2Depth&sc.shopNo=0000100000&sc.dispNo=001550028&sc.listSort=E&sc.imgViewType=S' 
+			}
+		 ]
+	}
+ , {
+		 menuNm:'전문몰', 
+		 dispNo:'010' , 
+		 dispKind:'01' , 
+		 dispPrir:'9' , 
+		 menuNo:'921' , 
+		 highMenuNo:'0' , 
+		 iconTp :'N' , 
+		 target:'01' , 
+		 addLink:'http://www.interpark.com/malls/html/category_specialmall/specialmall201205/specialmall_index.html' ,  
+		 subMenu : [ 
+{
+				 menuNm:'패션',
+				 dispNo:'001241' , 
+				 dispKind:'01' , 
+				 dispPrir:'1' , 
+				 menuNo:'922' , 
+				 highMenuNo:'921' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://fashion.interpark.com/fashion/main.do?shopNo=0000100000&dispNo=001241' 
+			}
+			 , {
+				 menuNm:'슈즈몰',
+				 dispNo:'001270' , 
+				 dispKind:'01' , 
+				 dispPrir:'5' , 
+				 menuNo:'926' , 
+				 highMenuNo:'921' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://shoes.interpark.com/malls/index.do?' 
+			}
+			 , {
+				 menuNm:'주방전문몰',
+				 dispNo:'001880' , 
+				 dispKind:'01' , 
+				 dispPrir:'6' , 
+				 menuNo:'927' , 
+				 highMenuNo:'921' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://kitchen.interpark.com/malls/index.do?' 
+			}
+			 , {
+				 menuNm:'가락시장몰',
+				 dispNo:'001995' , 
+				 dispKind:'01' , 
+				 dispPrir:'7' , 
+				 menuNo:'928' , 
+				 highMenuNo:'921' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycorner/GarakMall.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001995' 
+			}
+			 , {
+				 menuNm:'가구전문몰',
+				 dispNo:'001111' , 
+				 dispKind:'01' , 
+				 dispPrir:'8' , 
+				 menuNo:'961' , 
+				 highMenuNo:'921' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://furniture.interpark.com/malls/furniture/index.do?' 
+			}
+			 , {
+				 menuNm:'커피전문몰',
+				 dispNo:'001500' , 
+				 dispKind:'01' , 
+				 dispPrir:'9' , 
+				 menuNo:'1341' , 
+				 highMenuNo:'921' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://coffee.interpark.com/malls/index.do?' 
+			}
+			 , {
+				 menuNm:'조립PC몰',
+				 dispNo:'001110105' , 
+				 dispKind:'01' , 
+				 dispPrir:'10' , 
+				 menuNo:'1381' , 
+				 highMenuNo:'921' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/malls.do?_method=2Depth&sc.shopNo=0000100000&sc.dispNo=001110105' 
+			}
+			 , {
+				 menuNm:'i-Junior',
+				 dispNo:'001911' , 
+				 dispKind:'01' , 
+				 dispPrir:'11' , 
+				 menuNo:'1701' , 
+				 highMenuNo:'921' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://junior.interpark.com/malls/index.do?' 
+			}
+			 , {
+				 menuNm:'베이비프리미엄몰',
+				 dispNo:'001111' , 
+				 dispKind:'01' , 
+				 dispPrir:'12' , 
+				 menuNo:'1421' , 
+				 highMenuNo:'921' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycorner/KidPrimiumMall.do?_method=main' 
+			}
+			 , {
+				 menuNm:'롯데백화점',
+				 dispNo:'001960022' , 
+				 dispKind:'01' , 
+				 dispPrir:'14' , 
+				 menuNo:'925' , 
+				 highMenuNo:'921' , 
+				 iconTp:'http://openimage.interpark.com/_nip_ui/welcome2011/icon/icon_new.gif' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycategory/CooperationMall.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001960022' 
+			}
+		 ]
+	}
+ , {
+		 menuNm:'롯데백화점', 
+		 dispNo:'006' , 
+		 dispKind:'03' , 
+		 dispPrir:'6' , 
+		 menuNo:'166' , 
+		 highMenuNo:'0' , 
+		 iconTp :'N' , 
+		 target:'01' , 
+		 addLink:'http://www.interpark.com/displaycategory/CooperationMall.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001960022&sid1=gnb&sid2=corner&sid3=lotte&sid4=1' ,  
+		 subMenu : [ 
+		 ]
+	}
+ , {
+		 menuNm:'슈즈몰', 
+		 dispNo:'007' , 
+		 dispKind:'03' , 
+		 dispPrir:'7' , 
+		 menuNo:'167' , 
+		 highMenuNo:'0' , 
+		 iconTp :'N' , 
+		 target:'01' , 
+		 addLink:'http://shoes.interpark.com/malls/index.do?sid1=gnb&sid2=corner&sid3=shoes&sid4=1' ,  
+		 subMenu : [ 
+		 ]
+	}
+ , {
+		 menuNm:'스페셜코너', 
+		 dispNo:'008' , 
+		 dispKind:'03' , 
+		 dispPrir:'8' , 
+		 menuNo:'168' , 
+		 highMenuNo:'0' , 
+		 iconTp :'N' , 
+		 target:'01' , 
+		 addLink:'http://www.interpark.com' ,  
+		 subMenu : [ 
+{
+				 menuNm:'이벤트/혜택',
+				 dispNo:'1' , 
+				 dispKind:'04' , 
+				 dispPrir:'101' , 
+				 menuNo:'312' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/coupon/CouponAllToday.do?_method=sub5&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'쇼핑에센스몰',
+				 dispNo:'2' , 
+				 dispKind:'04' , 
+				 dispPrir:'102' , 
+				 menuNo:'275' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/essenceMall/EssenceLottoMall.do?_method=1Depth&isInnerLink=true&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'인터파크Local',
+				 dispNo:'1' , 
+				 dispKind:'04' , 
+				 dispPrir:'201' , 
+				 menuNo:'183' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'02' , 
+				 addLink:'http://mc.interpark.com/html/main/main.php?sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'랭킹 TOP5',
+				 dispNo:'2' , 
+				 dispKind:'04' , 
+				 dispPrir:'202' , 
+				 menuNo:'233' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displayrank/PopRanking.do?_method=PopCategoryMain&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'e-쿠폰/모바일기프트',
+				 dispNo:'1' , 
+				 dispKind:'04' , 
+				 dispPrir:'301' , 
+				 menuNo:'234' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'02' , 
+				 addLink:'http://www.interpark.com/malls/redirect.html?&sid1=gnb&sid2=corner&sid3=ecoupon&sid4=1&url=http://mc.interpark.com/html/gift/gift.php?sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'오늘의신상',
+				 dispNo:'2' , 
+				 dispKind:'04' , 
+				 dispPrir:'302' , 
+				 menuNo:'1401' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/NewGoodsAction.do?_method=main&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'라이프서비스',
+				 dispNo:'1' , 
+				 dispKind:'04' , 
+				 dispPrir:'401' , 
+				 menuNo:'226' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://memplus.interpark.com/life/main.mp?sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'컨슈머리포트',
+				 dispNo:'3' , 
+				 dispKind:'04' , 
+				 dispPrir:'402' , 
+				 menuNo:'1681' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycorner/ConsumerReports.do?_method=main&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'모닝커피 시즌2',
+				 dispNo:'1' , 
+				 dispKind:'04' , 
+				 dispPrir:'501' , 
+				 menuNo:'1621' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'02' , 
+				 addLink:'http://www.interpark.com/displaycorner/MorningCoffee.do?_method=mainNew&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'상품오픈공지게시판',
+				 dispNo:'1' , 
+				 dispKind:'04' , 
+				 dispPrir:'502' , 
+				 menuNo:'1761' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'02' , 
+				 addLink:'http://www.interpark.com/displaycorner/ProductNotice.do?_method=main&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'패션 모닝커피',
+				 dispNo:'1' , 
+				 dispKind:'04' , 
+				 dispPrir:'601' , 
+				 menuNo:'1901' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycorner/MorningCoffee.do?_method=fashionMain&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'뷰티직영브랜드관',
+				 dispNo:'3' , 
+				 dispKind:'05' , 
+				 dispPrir:'101' , 
+				 menuNo:'282' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/display/brandshop.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001972003&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'중고샵',
+				 dispNo:'4' , 
+				 dispKind:'05' , 
+				 dispPrir:'102' , 
+				 menuNo:'277' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycorner/MHappy.do?_method=resaleMain&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'해외쇼핑',
+				 dispNo:'3' , 
+				 dispKind:'05' , 
+				 dispPrir:'201' , 
+				 menuNo:'270' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/malls/html/event_html/event_021001014.html' 
+			}
+			 , {
+				 menuNm:'중고차',
+				 dispNo:'4' , 
+				 dispKind:'05' , 
+				 dispPrir:'202' , 
+				 menuNo:'278' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://carmembers.interpark.com/main/?sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'STORE-D',
+				 dispNo:'3' , 
+				 dispKind:'05' , 
+				 dispPrir:'301' , 
+				 menuNo:'279' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'02' , 
+				 addLink:'http://www.stored.co.kr/malls/index.do&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'스타샵',
+				 dispNo:'4' , 
+				 dispKind:'05' , 
+				 dispPrir:'302' , 
+				 menuNo:'276' , 
+				 highMenuNo:'168' , 
+				 iconTp:'http://openimage.interpark.com/_nip_ui/welcome2011/icon/icon_new.gif' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/malls/html/event_html/event_015910292.html&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'COORDI.COM',
+				 dispNo:'3' , 
+				 dispKind:'05' , 
+				 dispPrir:'401' , 
+				 menuNo:'341' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'02' , 
+				 addLink:'http://www.coordi.com/malls/index.do?sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'슈즈몰',
+				 dispNo:'4' , 
+				 dispKind:'05' , 
+				 dispPrir:'402' , 
+				 menuNo:'280' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://shoes.interpark.com/malls/index.do?sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'가락시장몰',
+				 dispNo:'4' , 
+				 dispKind:'05' , 
+				 dispPrir:'502' , 
+				 menuNo:'271' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycorner/GarakMall.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001995&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'디지털스퀘어',
+				 dispNo:'4' , 
+				 dispKind:'05' , 
+				 dispPrir:'602' , 
+				 menuNo:'842' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycorner/DigitalParkMall.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001996&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'유아동프리미엄몰',
+				 dispNo:'4' , 
+				 dispKind:'05' , 
+				 dispPrir:'702' , 
+				 menuNo:'742' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycorner/KidPrimiumMall.do?_method=main&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'한국인삼공사 직영몰',
+				 dispNo:'4' , 
+				 dispKind:'05' , 
+				 dispPrir:'802' , 
+				 menuNo:'1505' , 
+				 highMenuNo:'168' , 
+				 iconTp:'http://openimage.interpark.com/_nip_ui/welcome2011/icon/icon_new.gif' , 
+				 target:'01' , 
+				 addLink:'http://kgcshop.interpark.com?sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'i-Junior',
+				 dispNo:'4' , 
+				 dispKind:'05' , 
+				 dispPrir:'902' , 
+				 menuNo:'1702' , 
+				 highMenuNo:'168' , 
+				 iconTp:'http://openimage.interpark.com/_nip_ui/welcome2011/icon/icon_new.gif' , 
+				 target:'01' , 
+				 addLink:'http://junior.interpark.com/malls/index.do?sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'롯데백화점',
+				 dispNo:'5' , 
+				 dispKind:'06' , 
+				 dispPrir:'101' , 
+				 menuNo:'1822' , 
+				 highMenuNo:'168' , 
+				 iconTp:'http://openimage.interpark.com/_nip_ui/welcome2011/icon/icon_new.gif' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycategory/CooperationMall.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001960022&&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'마리오아울렛',
+				 dispNo:'5' , 
+				 dispKind:'06' , 
+				 dispPrir:'201' , 
+				 menuNo:'1021' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycategory/CooperationMall.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001960020&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'뉴코아아울렛',
+				 dispNo:'5' , 
+				 dispKind:'06' , 
+				 dispPrir:'301' , 
+				 menuNo:'2041' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycategory/CooperationMall.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001960023' 
+			}
+			 , {
+				 menuNm:'LG패션샵',
+				 dispNo:'5' , 
+				 dispKind:'06' , 
+				 dispPrir:'401' , 
+				 menuNo:'1602' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycategory/CooperationMall.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001960021&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'아이파크백화점',
+				 dispNo:'5' , 
+				 dispKind:'06' , 
+				 dispPrir:'501' , 
+				 menuNo:'285' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycategory/CooperationMall.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001960007&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'AK플라자',
+				 dispNo:'5' , 
+				 dispKind:'06' , 
+				 dispPrir:'601' , 
+				 menuNo:'283' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycategory/CooperationMall.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001960016&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'대구백화점',
+				 dispNo:'5' , 
+				 dispKind:'06' , 
+				 dispPrir:'701' , 
+				 menuNo:'284' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycategory/CooperationMall.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001960013&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'보리보리',
+				 dispNo:'5' , 
+				 dispKind:'06' , 
+				 dispPrir:'801' , 
+				 menuNo:'1461' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycategory/CooperationMall.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001960009&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'패션플러스',
+				 dispNo:'5' , 
+				 dispKind:'06' , 
+				 dispPrir:'901' , 
+				 menuNo:'287' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycategory/CooperationMall.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001960002&sid1=gnb&sid2=corner' 
+			}
+			 , {
+				 menuNm:'하프클럽',
+				 dispNo:'5' , 
+				 dispKind:'06' , 
+				 dispPrir:'902' , 
+				 menuNo:'286' , 
+				 highMenuNo:'168' , 
+				 iconTp:'N' , 
+				 target:'01' , 
+				 addLink:'http://www.interpark.com/displaycategory/CooperationMall.do?_method=main&sc.shopNo=0000100000&sc.dispNo=001960006&sid1=gnb&sid2=corner' 
+			}
+		 ]
+	}
+];
+
+ var gnbNavBanner2011 = [ { 
+} ];
+
+ var gnbNavBanner2012 = [
+];
+

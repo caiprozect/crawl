@@ -1,0 +1,1689 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+   <title>Apple PowerBook G4 Specs (All PowerBook G4 Technical Specs) @ EveryMac.com</title>
+<meta name="description" content="Technical specifications for the Apple PowerBook G4 series. Dates sold, processor type, memory info, hard drive details, estimated retail prices, and more.">
+<meta name="keywords" content="Apple PowerBook G4, Apple G4 PowerBook, PowerBook G4, G4 PowerBook, PowerPC PowerBook G4, Titanium PowerBook G4, Aluminum PowerBook G4, Aluminium PowerBook G4, Silver PowerBook, PowerBookG4, PBG4, G4PowerBook, G4PBook">
+<meta name="author" content="Kyle Media LLC" />
+<meta name="copyright" content="1996 to Present, Kyle Media LLC, All Rights Reserved." />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+<link rel='stylesheet' type='text/css' href='/css_ajax/style.css' />
+
+<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/css_ajax/wide.css" /><![endif]-->
+
+<link rel='stylesheet' media='screen and (max-width: 487px)' href='/css_ajax/narrow.css' />
+<link rel='stylesheet' media='screen and (min-width: 488px) and (max-width: 736px)' href='/css_ajax/medium.css' />
+<link rel='stylesheet' media='screen and (min-width: 737px) and (max-width: 919px), print' href='/css_ajax/tablet.css' />
+<link rel='stylesheet' media='screen and (min-width: 920px)' href='/css_ajax/wide.css' />
+<!-- <link rel='stylesheet' media='screen and (min-width: 1071px)' href='/css_ajax/extrawide.css' /> -->
+
+<link rel="stylesheet" media='screen, print' href="/css_ajax/additions.css" />
+
+<style>
+
+@media (max-width: 760px) {
+	.sidebar_ads {
+		display:none !important;
+		}
+
+</style>
+
+<script type="text/javascript" src="/css_ajax/ajax_foldout_specs.js"></script>
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+	<script type='text/javascript'>
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+	(function() {
+	var gads = document.createElement('script');
+	gads.async = true;
+	gads.type = 'text/javascript';
+	var useSSL = 'https:' == document.location.protocol;
+	gads.src = (useSSL ? 'https:' : 'http:') + 
+	'//www.googletagservices.com/tag/js/gpt.js';
+	var node = document.getElementsByTagName('script')[0];
+	node.parentNode.insertBefore(gads, node);
+	})();
+	</script>
+
+	<script type='text/javascript'>
+	googletag.cmd.push(function() {
+
+// First size is viewport (screen) size, second is permitted ad sizes.
+	
+  var mappingLeaderboard = googletag.sizeMapping().
+   		addSize([1366, 768], [728, 90]). 
+		addSize([728, 300], [728, 90]).
+		addSize([468, 300], [468, 60]).
+		addSize([320, 1], [320, 50]).
+		build();
+
+  var mapping125Box = googletag.sizeMapping().
+		addSize([905, 300], [125, 125]).
+		addSize([1, 1], []).
+		build();
+		
+  var mapping468Banner = googletag.sizeMapping().
+		addSize([468, 300], [468, 60]).
+		addSize([320, 1], [320, 50]).
+		build();
+
+googletag.defineSlot('/34666846/Mac_125', [125, 125], 'div-gpt-ad-1428048929504-2').defineSizeMapping(mapping125Box).addService(googletag.pubads());
+googletag.defineSlot('/34666846/Mac_468', [[320, 50], [468, 60]], 'div-gpt-ad-1428048929504-3').defineSizeMapping(mapping468Banner).addService(googletag.pubads());
+googletag.defineSlot('/34666846/Mac_728', [[468, 60], [728, 90], [728, 90]], 'div-gpt-ad-1428048929504-4').defineSizeMapping(mappingLeaderboard).addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+</head>
+
+<body>
+
+<div id="wrapper">
+	
+	<div id="logoheader">
+	<div id="everymaclogo"><a href="/"><img src="/images/interface_elements/everymac-logo-noshadow.gif" border="0" width="320" height="69"></a></div>
+
+	<div id="hostsponsorbox">
+	  <p class="hostsponsor">Hosting and bandwidth provided by <a rel="nofollow" href="/macace">MacAce.net</a>.</p>
+	<div id="searchtop">
+	
+		<!-- Google Custom Search for EveryMac.com -->
+	<form action="/search/search.html" id="cse-search-box">
+  	<div>
+    <p>
+      <input type="hidden" name="cx" value="partner-pub-8015755554271706:2hojc0-6s67" />
+    <input type="hidden" name="cof" value="FORID:11" />
+    <input type="hidden" name="ie" value="ISO-8859-1" />
+    <input type="text" name="q" size="45" />
+    <input type="submit" name="sa" value="Search" />
+	</p>
+  	</div>
+	</form>
+	<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script></p>
+	
+	</div>  
+	</div>
+	<div id="toprightcorner"></div>
+	</div>
+	
+	<div id="navigationwrapper">
+	<div id="navigationleft"></div>
+	
+	<div id="navigationcenter">
+    <div id="topnav">
+    <p class="hidden">
+	<a href="/">Home</a> |
+	<a href="/whatsnew/">What's New?</a> |
+	<a href="/systems/apple/">Mac Specs</a> |
+	<a href="/systems/mac-clones/">Clones</a> |
+	<a href="/systems/apple/ipod/">iPod</a> |
+	<a href="/systems/apple/iphone/">iPhone</a> |
+	<a href="/systems/apple/ipad/">iPad</a> |
+	<a href="/mac-answers/">Q&amp;As</a> |
+	<a href="/mac-identification/">Identify</a> |
+	<a href="/ultimate-mac-lookup/">Lookup</a> |
+	<a href="/ultimate-mac-comparison-chart/">Compare</a> |
+	<a href="/ultimate-mac-sort/">Sort</a> |
+	<a href="/mac-specs-app/">App</a>
+    </p>
+    </div>
+    
+    <div id="mednav">
+    <p class="hidden">
+	<a href="/">Home</a> |
+	<a href="/whatsnew/">What's New?</a> |
+	<a href="/systems/apple/">Browse</a> |
+	<a href="/search/">Site Search</a> |
+	<a href="/mac-answers/">Q&amp;As</a> |
+	<a href="/ultimate-mac-lookup/">Lookup</a> |
+	<a href="/mac-specs-app/">App</a>
+    </p>
+    </div>
+
+    <div id="smallnav">
+    <p class="hidden">
+	<a href="/whatsnew/">What's New?</a> |
+	<a href="/systems/apple/">Browse</a> |
+	<a href="/search/">Search</a> |
+	<a href="/ultimate-mac-lookup/">Lookup</a> |
+	<a href="/mac-specs-app/">App</a>
+    </p>
+    </div>
+	
+    </div>
+	
+	<div id="navigationrightedge"></div>
+	</div>
+	
+	<div id="topadvertisementwrapper">
+	<div id="topadvertisementleft"></div>
+	
+	<div id="topadvertisementmain">
+	
+<!--noedit-->
+<center>
+<!-- Mac_728 -->
+<div id='div-gpt-ad-1428048929504-4'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1428048929504-4'); });
+</script>
+</div>
+</center>
+<!--/noedit-->
+	
+	<br>
+	
+<!--noedit-->
+<center>
+<div id="google-linkads-1"></div>     
+<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>     
+    ad = document.getElementById('google-linkads-1');    
+      
+    var adWidth = (typeof ad.getBoundingClientRect === 'function') ? 
+    ad.getBoundingClientRect().width : ad.offsetWidth;    
+      
+    google_ad_client = "ca-pub-8015755554271706";
+     
+    if ( adWidth >= 728 )      google_ad_param = ["728", "15", "5884077359"];
+    else if ( adWidth >= 468 ) google_ad_param = ["468", "15", "8837543752"];
+    else                       google_ad_param = ["", "", ""];
+ 
+    document.write (
+    '<ins class="adsbygoogle" style="display:inline-block;'
+    + 'width:' + google_ad_param[0] + 'px;'
+    + 'height:' + google_ad_param[1] + 'px'
+    + '" data-ad-client="' + google_ad_client
+    + '" data-ad-slot="' + google_ad_param[2]
+    + '"></ins>'
+    );
+    (adsbygoogle = window.adsbygoogle || []).push({});
+ 
+</script>
+</center>
+<!--/noedit-->
+	
+	</div>
+	</div>
+	
+	<div id="contentwrapper">
+	<div id="contentleft">
+	
+<!--noedit-->
+<center>
+<!-- Mac_125 -->
+<div id='div-gpt-ad-1428048929504-2'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1428048929504-2'); });
+</script>
+</div>
+</center>
+<!--/noedit-->
+	
+	<br>
+	<iframe src="/css_ajax/leftsidebar_recentspecs_browseall.html" frameborder="0" scrolling="no" width="155" height="1200"></iframe><br>
+	</div>
+
+	<div id="contentcenter">
+    <p class="bold"><a href="../../">Mac Systems</a> &gt;
+       <a href="../">Apple</a> &gt;
+       PowerBook G4 | Also see: <a href="/systems/apple/macbook_pro/">MacBook Pro</a></p>
+                           
+    <p>The PowerBook G4 -- the last professional Apple notebook series to use the PowerPC processor -- shipped from 2001 until 2006. All use either titanium or aluminum case designs that were  thin for their day. The PowerBook G4 was replaced by the <a href="../macbook_pro/">MacBook Pro</a> series. Complete PowerBook G4 <a href="#specs">technical specs are below</a>.    </p>
+    <p>For answers to all your PowerBook G4 questions, check out the <a href="faq/">PowerBook G4 Q&amp;A</a>. </p>
+    <p>Also see: <a href="../../by_shipping/">Currently Shipping Macs</a> &amp; <a href="/ultimate-mac-comparison-chart/">Ultimate Mac Comparison</a>. <g:plusone size="small" href="http://www.everymac.com/"></g:plusone></p>
+    <br>
+	<hr>
+	<br>
+      
+	<br>
+	<p class="ital"><a name="specs" id="specs"></a>Click  the triangle to the left of a system to open &quot;Quick Specs&quot; -- identifiers and  basic configuration details -- and click on the name or image for complete specifications. You also can <a href="/ultimate-mac-lookup/">lookup</a> a PowerBook G4 by its serial number and other identifiers. </p>
+    <p><i>Systems with "Ti" by the name use titanium cases, and systems with "Al" by the name use aluminum cases. Asterisks  indicate that important details are provided on the applicable specs page.</i></p>
+	<!--Optional Expand/ Contact All links. Remove if desired-->
+<div><center><a href="javascript:foldout.sweepToggle('expand')">Expand Every System</a> | <a href="javascript:foldout.sweepToggle('contract')">Contract Every System</a></center></div>
+<br>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1"><font color="white">1</font></span>
+		  <span id="contentcenter_specs_externalnav_2"><b>Apple Computer</b></span>
+      	  <span id="contentcenter_specs_externalnav_3"><b>Processor</b></span>
+	</span>
+	      
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG401-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_400.html">PowerBook G4 400 (Original - Ti)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">400 MHz PowerPC 7410 (G4)</span>
+	</span>
+<div id="contentPowerBookG401" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_400.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>January 9, 2001</td>
+    <td>Disc.</td>
+    <td>October 16, 2001</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M7952LL/A</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=M5884">M5884</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=1854">1854</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>PowerBook G4</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook3,2">PowerBook3,2</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>128 MB</td>
+    <td>VRAM</td>
+    <td>8 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>10 GB</td>
+    <td>Optical</td>
+    <td>6X DVD-ROM</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_400.html">Complete PowerBook G4 400 (Original - Ti) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG402-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_500.html">PowerBook G4 500 (Original - Ti)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">500 MHz PowerPC 7410 (G4)</span>
+	</span>
+<div id="contentPowerBookG402" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_500.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>January 9, 2001</td>
+    <td>Disc.</td>
+    <td>October 16, 2001</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M7710LL/A</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=M5884">M5884</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=1854">1854</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>PowerBook G4</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook3,2">PowerBook3,2</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>256 MB</td>
+    <td>VRAM</td>
+    <td>8 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>20 GB</td>
+    <td>Optical</td>
+    <td>6X DVD-ROM</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_500.html">Complete PowerBook G4 500 (Original - Ti) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG403-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_550.html">PowerBook G4 550 (Gigabit - Ti)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">550 MHz PowerPC 7440 (G4)</span>
+	</span>
+<div id="contentPowerBookG403" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_550.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>October 16, 2001*</td>
+    <td>Disc.</td>
+    <td>April 29, 2002</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M8362LL/A*</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=M8407">M8407</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=1895">1895</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>Gigabit Ethernet</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook3,3">PowerBook3,3</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>128 MB, 256 MB</td>
+    <td>VRAM</td>
+    <td>16 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>20 GB</td>
+    <td>Optical</td>
+    <td>6X DVD-ROM*</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_550.html">Complete PowerBook G4 550 (Gigabit - Ti) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG404-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_667.html">PowerBook G4 667 (Gigabit - Ti)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">667 MHz PowerPC 7440 (G4)</span>
+	</span>
+<div id="contentPowerBookG404" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_667.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>October 16, 2001*</td>
+    <td>Disc.</td>
+    <td>April 29, 2002</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M8363LL/A*</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=M8407">M8407</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=1895">1895</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>Gigabit Ethernet</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook3,3">PowerBook3,3</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>256 MB, 512 MB</td>
+    <td>VRAM</td>
+    <td>16 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>30 GB</td>
+    <td>Optical</td>
+    <td>6X DVD-ROM*</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_667.html">Complete PowerBook G4 667 (Gigabit - Ti) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG405-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_667_dvi.html">PowerBook G4 667 (DVI - Ti)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">667 MHz PowerPC 7451 (G4)</span>
+	</span>
+<div id="contentPowerBookG405" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_667_dvi.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4_dvi.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>April 29, 2002</td>
+    <td>Disc.</td>
+    <td>November 6, 2002</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M8591LL/A</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=A1001">A1001</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=N/A">N/A</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>DVI</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook3,4">PowerBook3,4</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>256 MB</td>
+    <td>VRAM</td>
+    <td>32 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>30 GB (4200 RPM)</td>
+    <td>Optical</td>
+    <td>8X &quot;Combo Drive&quot;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_667_dvi.html">Complete PowerBook G4 667 (DVI - Ti) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG406-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_800_dvi.html">PowerBook G4 800 (DVI - Ti)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">800 MHz PowerPC 7451 (G4)</span>
+	</span>
+<div id="contentPowerBookG406" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_800_dvi.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4_dvi.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>April 29, 2002</td>
+    <td>Disc.</td>
+    <td>November 6, 2002</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M8592LL/A</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=A1001">A1001</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=N/A">N/A</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>DVI</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook3,4">PowerBook3,4</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>512 MB</td>
+    <td>VRAM</td>
+    <td>32 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>40 GB (4200 RPM)</td>
+    <td>Optical</td>
+    <td>8X &quot;Combo Drive&quot;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_800_dvi.html">Complete PowerBook G4 800 (DVI - Ti) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG407-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_867.html">PowerBook G4 867 (Ti)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">867 MHz PowerPC 7455 (G4)</span>
+	</span>
+<div id="contentPowerBookG407" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_867.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4_dvi.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>November 6, 2002</td>
+    <td>Disc.</td>
+    <td>September 16, 2003</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M8858LL/A</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=A1025">A1025</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=N/A">N/A</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>1 GHz/867 MHz</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook3,5">PowerBook3,5</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>256 MB</td>
+    <td>VRAM</td>
+    <td>32 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>40 GB (4200 RPM)</td>
+    <td>Optical</td>
+    <td>8X &quot;Combo Drive&quot;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_867.html">Complete PowerBook G4 867 (Ti) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG408-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.0.html">PowerBook G4 1.0 (Ti)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">1.0 GHz PowerPC 7455 (G4)</span>
+	</span>
+<div id="contentPowerBookG408" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.0.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4_dvi.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>November 6, 2002</td>
+    <td>Disc.</td>
+    <td>September 16, 2003</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M8859LL/A</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=A1025">A1025</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=N/A">N/A</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>1 GHz/867 MHz</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook3,5">PowerBook3,5</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>512 MB</td>
+    <td>VRAM</td>
+    <td>64 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>60 GB (4200 RPM)</td>
+    <td>Optical</td>
+    <td>1X &quot;SuperDrive&quot;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.0.html">Complete PowerBook G4 1.0 (Ti) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG409-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_867_12.html">PowerBook G4 867 12&quot; (Al)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">867 MHz PowerPC 7455 (G4)</span>
+	</span>
+<div id="contentPowerBookG409" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_867_12.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4_12.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>January 7, 2003</td>
+    <td>Disc.</td>
+    <td>September 16, 2003</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M8760LL/A</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=A1010">A1010</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=1931">1931</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>12-Inch</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook6,1">PowerBook6,1</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>256 MB</td>
+    <td>VRAM</td>
+    <td>32 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>40 GB (4200 RPM)</td>
+    <td>Optical</td>
+    <td>8X &quot;Combo Drive&quot;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_867_12.html">Complete PowerBook G4 867 12&quot; (Al) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG410-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.0_17.html">PowerBook G4 1.0 17&quot; (Al)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">1.0 GHz PowerPC 7455 (G4)</span>
+	</span>
+<div id="contentPowerBookG410" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.0_17.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4_17.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>January 7, 2003</td>
+    <td>Disc.</td>
+    <td>September 16, 2003</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M8793LL/A</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=A1013">A1013</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=N/A">N/A</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>17-Inch</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook5,1">PowerBook5,1</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>512 MB</td>
+    <td>VRAM</td>
+    <td>64 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>60 GB (4200 RPM)</td>
+    <td>Optical</td>
+    <td>2X &quot;SuperDrive&quot;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.0_17.html">Complete PowerBook G4 1.0 17&quot; (Al) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG411-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.0_12.html">PowerBook G4 1.0 12&quot; (DVI - Al)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">1.0 GHz PowerPC 7447 (G4)</span>
+	</span>
+<div id="contentPowerBookG411" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.0_12.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4_12.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>September 16, 2003</td>
+    <td>Disc.</td>
+    <td>April 19, 2004</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M9007LL/A*</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=A1010">A1010</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=1986">1986</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>12-Inch DVI</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook6,2">PowerBook6,2</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>256 MB</td>
+    <td>VRAM</td>
+    <td>32 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>40 GB (4200 RPM)</td>
+    <td>Optical</td>
+    <td>8X &quot;Combo Drive&quot;*</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.0_12.html">Complete PowerBook G4 1.0 12&quot; (DVI - Al) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG412-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.0_15.html">PowerBook G4 1.0 15&quot; (FW800 - Al)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">1.0 GHz PowerPC 7447 (G4)</span>
+	</span>
+<div id="contentPowerBookG412" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.0_15.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4_15.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>September 16, 2003</td>
+    <td>Disc.</td>
+    <td>April 19, 2004</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M8980LL/A</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=A1046">A1046</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=1960">1960</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>15-Inch FW800</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook5,2">PowerBook5,2</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>256 MB</td>
+    <td>VRAM</td>
+    <td>64 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>60 GB (4200 RPM)</td>
+    <td>Optical</td>
+    <td>8X &quot;Combo Drive&quot;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.0_15.html">Complete PowerBook G4 1.0 15&quot; (FW800 - Al) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG413-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.25_15.html">PowerBook G4 1.25 15&quot; (FW800 - Al)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">1.25 GHz PowerPC 7447 (G4)</span>
+	</span>
+<div id="contentPowerBookG413" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.25_15.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4_15.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>September 16, 2003</td>
+    <td>Disc.</td>
+    <td>April 19, 2004</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M8981LL/A</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=A1046">A1046</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=1960">1960</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>15-Inch FW800</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook5,2">PowerBook5,2</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>512 MB</td>
+    <td>VRAM</td>
+    <td>64 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>80 GB (4200 RPM)</td>
+    <td>Optical</td>
+    <td>2X &quot;SuperDrive&quot;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.25_15.html">Complete PowerBook G4 1.25 15&quot; (FW800 - Al) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG414-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.33_17.html">PowerBook G4 1.33 17&quot; (Al)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">1.33 GHz PowerPC 7447 (G4)</span>
+	</span>
+<div id="contentPowerBookG414" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.33_17.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4_17.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>September 16, 2003</td>
+    <td>Disc.</td>
+    <td>April 19, 2004</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M9110LL/A</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=A1052">A1052</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=N/A">N/A</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>17-Inch 1.33 GHz</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook5,3">PowerBook5,3</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>512 MB</td>
+    <td>VRAM</td>
+    <td>64 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>80 GB (4200 RPM)</td>
+    <td>Optical</td>
+    <td>2X &quot;SuperDrive&quot;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.33_17.html">Complete PowerBook G4 1.33 17&quot; (Al) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG415-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.33_12.html">PowerBook G4 1.33 12&quot; (Al)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">1.33 GHz PowerPC 7447a (G4)</span>
+	</span>
+<div id="contentPowerBookG415" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.33_12.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4_12.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>April 19, 2004</td>
+    <td>Disc.</td>
+    <td>January 31, 2005</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M9183LL/A*</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=A1010">A1010</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=1986">1986</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>12-Inch 1.33 GHz</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook6,4">PowerBook6,4</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>256 MB</td>
+    <td>VRAM</td>
+    <td>64 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>60 GB (4200 RPM)</td>
+    <td>Optical</td>
+    <td>8X &quot;Combo Drive&quot;*</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.33_12.html">Complete PowerBook G4 1.33 12&quot; (Al) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG416-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.33_15.html">PowerBook G4 1.33 15&quot; (Al)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">1.33 GHz PowerPC 7447a (G4)</span>
+	</span>
+<div id="contentPowerBookG416" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.33_15.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4_15.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>April 19, 2004</td>
+    <td>Disc.</td>
+    <td>January 31, 2005</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M9421LL/A</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=A1095">A1095</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=N/A">N/A</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>15-Inch 1.5/1.33</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook5,4">PowerBook5,4</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>256 MB</td>
+    <td>VRAM</td>
+    <td>64 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>60 GB (4200 RPM)</td>
+    <td>Optical</td>
+    <td>8X &quot;Combo Drive&quot;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.33_15.html">Complete PowerBook G4 1.33 15&quot; (Al) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG417-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.5_15.html">PowerBook G4 1.5 15&quot; (Al)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">1.5 GHz PowerPC 7447a (G4)</span>
+	</span>
+<div id="contentPowerBookG417" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.5_15.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4_15.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>April 19, 2004</td>
+    <td>Disc.</td>
+    <td>January 31, 2005</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M9422LL/A</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=A1095">A1095</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=N/A">N/A</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>15-Inch 1.5/1.33</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook5,4">PowerBook5,4</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>512 MB</td>
+    <td>VRAM</td>
+    <td>64 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>80 GB (4200 RPM)</td>
+    <td>Optical</td>
+    <td>4X &quot;SuperDrive&quot;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.5_15.html">Complete PowerBook G4 1.5 15&quot; (Al) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG418-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.5_17.html">PowerBook G4 1.5 17&quot; (Al)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">1.5 GHz PowerPC 7447a (G4)</span>
+	</span>
+<div id="contentPowerBookG418" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.5_17.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4_17.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>April 19, 2004</td>
+    <td>Disc.</td>
+    <td>January 31, 2005</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M9462LL/A</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=A1085">A1085</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=N/A">N/A</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>17-Inch 1.5 GHz</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook5,5">PowerBook5,5</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>512 MB</td>
+    <td>VRAM</td>
+    <td>64 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>80 GB (4200 RPM)</td>
+    <td>Optical</td>
+    <td>4X &quot;SuperDrive&quot;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.5_17.html">Complete PowerBook G4 1.5 17&quot; (Al) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG419-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.5_12.html">PowerBook G4 1.5 12&quot; (Al)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">1.5 GHz PowerPC 7447a (G4)</span>
+	</span>
+<div id="contentPowerBookG419" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.5_12.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4_12.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>January 31, 2005</td>
+    <td>Disc.</td>
+    <td>May 16, 2006*</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M9690LL/A*</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=A1104">A1104</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=2030">2030</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>12-Inch 1.5 GHz</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook6,8">PowerBook6,8</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>512 MB</td>
+    <td>VRAM</td>
+    <td>64 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>60, 80 GB (5400 RPM)</td>
+    <td>Optical</td>
+    <td>8X &quot;Combo Drive&quot;*</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.5_12.html">Complete PowerBook G4 1.5 12&quot; (Al) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG420-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.5_15_2.html">PowerBook G4 1.5 15&quot; (SMS/BT2 - Al)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">1.5 GHz PowerPC 7447a (G4)</span>
+	</span>
+<div id="contentPowerBookG420" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.5_15_2.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4_15.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>January 31, 2005</td>
+    <td>Disc.</td>
+    <td>October 19, 2005</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M9676LL/A</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=A1106">A1106</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=2029">2029</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>15-Inch 1.67/1.5</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook5,6">PowerBook5,6</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>512 MB</td>
+    <td>VRAM</td>
+    <td>64 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>80 GB (5400 RPM)</td>
+    <td>Optical</td>
+    <td>8X &quot;Combo Drive&quot;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.5_15_2.html">Complete PowerBook G4 1.5 15&quot; (SMS/BT2 - Al) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG421-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.67_15.html">PowerBook G4 1.67 15&quot; (Al)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">1.67 GHz PowerPC 7447a (G4)</span>
+	</span>
+<div id="contentPowerBookG421" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.67_15.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4_15.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>January 31, 2005</td>
+    <td>Disc.</td>
+    <td>October 19, 2005</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M9677LL/A</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=A1106">A1106</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=2029">2029</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>15-Inch 1.67/1.5</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook5,6">PowerBook5,6</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>512 MB</td>
+    <td>VRAM</td>
+    <td>64 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>80 GB (5400 RPM)</td>
+    <td>Optical</td>
+    <td>8X &quot;SuperDrive&quot;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.67_15.html">Complete PowerBook G4 1.67 15&quot; (Al) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG422-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.67_17.html">PowerBook G4 1.67 17&quot; (Al)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">1.67 GHz PowerPC 7447a (G4)</span>
+	</span>
+<div id="contentPowerBookG422" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.67_17.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4_17.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>January 31, 2005</td>
+    <td>Disc.</td>
+    <td>October 19, 2005</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M9689LL/A</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=A1107">A1107</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=N/A">N/A</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>17-Inch 1.67 GHz</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook5,7">PowerBook5,7</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>512 MB</td>
+    <td>VRAM</td>
+    <td>128 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>100 GB (5400 RPM)</td>
+    <td>Optical</td>
+    <td>8X &quot;SuperDrive&quot;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.67_17.html">Complete PowerBook G4 1.67 17&quot; (Al) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG423-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.67_15_hr.html">PowerBook G4 1.67 15&quot; (DLSD/HR - Al)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">1.67 GHz PowerPC 7447a* (G4)</span>
+	</span>
+<div id="contentPowerBookG423" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.67_15_hr.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4_15.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>October 19, 2005</td>
+    <td>Disc.</td>
+    <td>January 10, 2006*</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M9969LL/A</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=A1138">A1138</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=N/A">N/A</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>15-Inch DL SD</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook5,8">PowerBook5,8</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>512 MB</td>
+    <td>VRAM</td>
+    <td>128 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>80 GB (5400 RPM)</td>
+    <td>Optical</td>
+    <td>2.4X DL &quot;SuperDrive&quot;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.67_15_hr.html">Complete PowerBook G4 1.67 15&quot; (DLSD/HR - Al) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+	<span id="contentcenter_specs_externalnav_wrapper">
+		  <span id="contentcenter_specs_externalnav_1">
+		  		<span id="contentPowerBookG424-title" class="handcursor">
+		  		</span>
+		  </span>
+			  <span id="contentcenter_specs_externalnav_2"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.67_17_hr.html">PowerBook G4 1.67 17&quot; (DLSD/HR - Al)</a></span>
+      	      <span id="contentcenter_specs_externalnav_3">1.67 GHz PowerPC 7447a* (G4)</span>
+	</span>
+<div id="contentPowerBookG424" class="switchgroup1">
+<div id="contentcenter_specs_internalnav_wrapper">
+
+<div id="contentcenter_specs_internalnav_1"><a href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.67_17_hr.html"><img src="http://www.everymac.com/images/cpu_thumbnails/apple_powerbook_g4_17.jpg" border="0"></a></div>
+<div id="contentcenter_specs_internalnav_2">
+<center>
+<table>
+  <tr>
+    <td>Intro.</td>
+    <td>October 19, 2005</td>
+    <td>Disc.</td>
+    <td>April 24, 2006</td>
+  </tr>
+  <tr>
+    <td>Order</td>
+    <td>M9970LL/A</td>
+    <td>Model</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=A1139">A1139</a> (EMC <a class="small" href="/ultimate-mac-lookup/?search_keywords=N/A">N/A</a>)</td>
+  </tr>
+  <tr>
+    <td>Family</td>
+    <td>17-Inch DL SD</td>
+    <td>ID</td>
+    <td><a class="small" href="/ultimate-mac-lookup/?search_keywords=PowerBook5,9">PowerBook5,9</a></td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>512 MB</td>
+    <td>VRAM</td>
+    <td>128 MB</td>
+  </tr>
+  <tr>
+    <td>Storage </td>
+    <td>120 GB (5400 RPM)</td>
+    <td>Optical</td>
+    <td>2.4X DL &quot;SuperDrive&quot;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><a class="small" href="/systems/apple/powerbook_g4/specs/powerbook_g4_1.67_17_hr.html">Complete PowerBook G4 1.67 17&quot; (DLSD/HR - Al) Specs</a> </td>
+  </tr>
+</table>
+</center>
+</div>
+
+</div>
+</div>
+
+
+<script type="text/javascript">
+// MAIN FUNCTION: new switchcontent("class name", "[optional_element_type_to_scan_for]") REQUIRED
+// Call Instance.init() at the very end. REQUIRED
+
+var foldout=new switchcontent("switchgroup1", "div", "span") //Limit scanning of switch contents to just "div" and "span" elements
+foldout.setStatus('<img src="/images/interface_elements/triangle_open_specsnav.gif" /> ', '<img src="/images/interface_elements/triangle_closed_specsnav.gif" /> ')
+foldout.setColor('black', 'black')
+foldout.setPersist(false)
+foldout.collapsePrevious(false) //Only one content open at any given time
+foldout.defaultExpanded(0) //First open by default
+foldout.init()
+</script>
+				  <p></p>
+                 
+                  <br>
+                  <br>
+    
+      	<div id="integratedbanner">
+<!--noedit-->
+<!-- Mac_468 -->
+<div id='div-gpt-ad-1428048929504-3'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1428048929504-3'); });
+</script>
+</div>
+<!--/noedit-->
+	<br>
+	</div>
+    
+	<br>              
+    <p>&lt;&lt; <a href="../">Apple System Specs (Main)</a> | Also see: <a href="/mac-answers/">All Mac Q&amp;As</a><br />
+      <br />
+   <hr>
+    <br>
+   
+   <p class="disclaimer">
+   EveryMac.com is provided "as is" without warranty of any kind whatsoever.
+   EveryMac.com, and the author thereof, shall not be held responsible or liable, under any circumstances, for any
+   damages resulting from the use or inability to use the information within. For complete disclaimer and copyright
+   information please read and understand the <a class="disclaimer" rel="nofollow" href="/articles/admin/termsofuse.html">Terms
+   of Use</a> and the <a class="disclaimer" rel="nofollow" href="/articles/admin/privacy.html">Privacy Policy</a> before
+   using EveryMac.com. Use of any content or images without expressed permission is not allowed, although links to any page are welcomed and appreciated.</p>
+   
+   </div>
+
+	<div id="contentright">
+		
+<!--noedit-->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- EveryMac - Right Skyscraper -->
+<ins class="adsbygoogle sidebar_ads"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-8015755554271706"
+     data-ad-slot="7920917759"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!--/noedit-->
+	
+	<br>
+	</div>
+<![if !(IE6)|!(IE7)]><br clear="all" /><![endif]>
+
+	</div>
+
+	<div id="footerwrapper">
+	<div id="footerleftcorner"></div>
+	<div id="footermain">
+	
+	<p class="copyright">
+	<a class="copyright" rel="nofollow" href="/articles/admin/contact.html">Contact</a> - 
+	<a class="copyright" href="/">EveryMac.com</a> -
+	<a class="copyright" rel="nofollow" href="http://www.kylemedia.com/">Kyle Media LLC</a> -
+    <a class="copyright" rel="nofollow" href="http://www.kylemedia.com/media-kit/">Advertising Info</a> - All Rights Reserved -
+	<a class="copyright" rel="nofollow" href="/articles/admin/termsofuse.html">Copyright</a> &copy; 1996</p>
+	
+	</div>
+	<div id="footerrightcorner"></div>
+	</div>
+
+</div>
+
+ <!--noedit-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-255892-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!--/noedit-->
+</BODY>
+</HTML>
